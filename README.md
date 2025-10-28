@@ -129,4 +129,6 @@ Benoît Urruty
 
 ## Citation / DOI
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17455917.svg)](https://doi.org/10.5281/zenodo.17455917)
+[![DOI](https://doi.org/10.5281/zenodo.174559187.svg)](https://doi.org/10.5281/zenodo.17455918)
+
+
