@@ -8,8 +8,9 @@ map MP-Inferieur
     MP-Grotte_du_Clot_d_Aspres-plan-tot@Grotte_du_Clot_Aspres
     MP-Scialet_Jeunesse_d'Automne-plan-tot@Scialet_Jeunesse_Automne
     MP_nuits_blanches@nuits_blanches
-    # MP-Scialet_de_la_Malleole-plan-tot@Scialet_de_la_Malleole
+    MP-Scialet_de_la_Malleole-plan-tot@Scialet_de_la_Malleole
     MP-Soleil-Trompeur-plan-tot@Soleil-Trompeur
     MP-TQF-plan-tot@TQF
     MP-castor@Castor
+    MP-FJSP08-plan-tot@FJSP08
 endmap

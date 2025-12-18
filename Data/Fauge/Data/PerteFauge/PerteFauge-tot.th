@@ -24,12 +24,12 @@ survey PerteFauge -title "Perte de la Fauge"
 #	join scrap1 scrap2 #-count n
 
 # ## Pour le plan
-# input Data/Plan.th2
+input Data/Plan.th2
 
 # ## Pour la coupe d�velopp�e
-# input Data/PerteFauge-coupe.th2
+input Data/Coupe.th2
 
 # ## Appel des maps
-#input PerteFauge-maps.th
+input PerteFauge-maps.th
 
 endsurvey

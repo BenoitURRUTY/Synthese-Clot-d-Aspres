@@ -4,12 +4,15 @@ encoding utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-ScialetFauge1-plan-tot -title "Scialet de la Fauge n°1"
+map MP-FJSP08-plan-tot -title "FJS P08 - Plan total"
 	break
 	scrap1
+	
+
+	
 endmap
-# map MC-ScialetFauge1-coupe-tot -title "Perte de la Fauge"
-# 	SC-ScialetFauge1-1
+# map MC-PerteFauge-coupe-tot -title "Perte de la Fauge"
+# 	SC-PerteFauge-1
 # 	#break
-# 	#SC-ScialetFauge1-2
+# 	#SC-PerteFauge-2
 # endmap

@@ -1,8 +1,8 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -239.5 -4413.25 2854.0 128.25
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.25 {}} Silence_plan.png 0 {}
-##XTHERION## xth_me_image_insert {1.5 1 1.0} {5.75 {}} {Silence_plan [Récupéré].png} 0 {}
+##XTHERION## xth_me_image_insert {-0.75 1 1.0} {1.0 {}} {Silence_plan [Récupéré].png} 0 {}
 
 
 
@@ -217,7 +217,7 @@ endline
 line wall -subtype pit
   1396.5 -2153.25
   1400.5 -2157.75 1402.5 -2162.25 1408.0 -2164.25
-  1413.5 -2166.25 1406.5 -2167.25 1420.75 -2168.0
+  1413.5 -2166.25 1412.5 -2168.75 1417.0 -2169.5
   smooth off
 endline
 
@@ -2740,6 +2740,7 @@ line border
   1954.25 -3626.0 1955.75 -3636.75 1954.5 -3644.5
   1953.25 -3652.25 1951.5 -3650.25 1953.5 -3655.0
   1955.5 -3659.75 1954.0 -3669.25 1956.5 -3674.0
+  smooth off
 endline
 
 line pit

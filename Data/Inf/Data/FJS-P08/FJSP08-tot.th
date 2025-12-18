@@ -4,16 +4,16 @@ encoding utf-8
 # Ce travaille est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-survey ScialetFauge1 -title "Scialet de la Fauge n°1"
+survey FJSP08 -title "FJS P08"
 
 	# Pour importer les diff�rentes donn�es de diff�rents fichiers topos :
-	input Data/ScialetFauge1.th
+	input Data/fjs_p08.th
 
 #	centerline
 		##Rajout des longueurs explor�es, non topo, ou topos perdues
-#		station Ca.31@ScialetFauge1 "+78 m explor�s " continuation explored 78m
+#		station Ca.31@PerteFauge "+78 m explor�s " continuation explored 78m
 		## Pour assembler plusieurs fichiers topos
-#		equate  6@ScialetFauge1  0@ScialetFauge12
+#		equate  6@PerteFauge  0@PerteFauge2
 
 #	endcenterline)
 
@@ -27,9 +27,9 @@ survey ScialetFauge1 -title "Scialet de la Fauge n°1"
 input Data/Plan.th2
 
 # ## Pour la coupe d�velopp�e
-# input Data/ScialetFauge1-coupe.th2
+# input Data/Coupe.th2
 
 # ## Appel des maps
-input ScialetFauge1-maps.th
+input FJSP08-maps.th
 
 endsurvey

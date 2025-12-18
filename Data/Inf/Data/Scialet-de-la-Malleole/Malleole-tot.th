@@ -30,6 +30,6 @@ survey Scialet_de_la_Malleole -title "Scialet_de_la_Malleole"
 # input Data/Malleole-coupe.th2
 
 # ## Appel des maps
-# input Scialet_de_la_Malleole-maps.th
+input Scialet_de_la_Malleole-maps.th
 
 endsurvey

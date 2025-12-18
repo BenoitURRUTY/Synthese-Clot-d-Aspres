@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -261.08799999999974 -11133.0 8770.412 126.5
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1.0 0 1.0} {-1.5 {}} Nymphe.png 0 {}
 ##XTHERION## xth_me_image_insert {62.41200000000026 1 1.0} {-5345.0 {}} {../../2-Soeurs/MapToDat/Aspres 7.jpg} 0 {}
 ##XTHERION## xth_me_image_insert {2754.052 1 1.0} {-5094.0199999999995 Nymphe} Nymphe-Emue_plan.xvi 0 {}
@@ -1518,6 +1518,8 @@ line wall -subtype invisible
   1473.25 -1850.5
 endline
 
+point 1059.0 -871.0 label -text "Puits remontant"
+
 line chimney -close on -reverse on
   992.0 -860.75
   988.75 -865.25 988.5 -871.25 990.5 -875.25
@@ -2434,6 +2436,8 @@ line chimney -close on -reverse on
   2465.0 -1388.0 2459.0 -1382.0 2469.0 -1394.0
 endline
 
+point 2718.0 -1214.0 label -text "Puits remontant -262"
+
 line chimney -close on -reverse on
   2425.0 -1159.0
   2432.0 -1179.0 2426.0 -1184.0 2445.0 -1194.0
@@ -2776,12 +2780,11 @@ line wall
 endline
 
 line pit -close on
-  1528.0 -2472.5
-  1528.0 -2472.5 1494.0 -2486.0 1498.0 -2497.0
-  1502.0 -2508.0 1513.5 -2523.5 1528.0 -2519.5
+  1542.0 -2485.5
+  1531.0 -2469.5 1497.5 -2489.5 1501.5 -2500.5
+  1505.5 -2511.5 1502.64 -2526.5 1528.0 -2519.5
   1542.5 -2515.5 1550.0 -2516.5 1551.5 -2509.0
-  1553.0 -2501.5 1528.0 -2472.5 1528.0 -2472.5
-  smooth off
+  1553.0 -2501.5 1546.34 -2491.81 1542.0 -2485.5
 endline
 
 line wall -subtype invisible
@@ -4779,6 +4782,8 @@ point 2254.0 -5751.0 label -text "P25" -scale xl
 line label -text "Réseau des frangines" -scale xl
 endline
 
+point 2940.0 -6034.0 label -text "Réseau de l'espace bleu entre les nuages" -scale xl
+
 line wall
   2668.0 -6110.0
   2671.5 -6104.5 2674.0 -6105.0 2677.0 -6091.0
@@ -5313,12 +5318,11 @@ endscrap
 
 scrap SP-Nymphe-18 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
-
-
 line wall
   1735.25 -5164.0
   1741.5 -5173.5 1739.5 -5174.0 1737.25 -5185.5
   1735.0 -5197.0 1731.25 -5214.75 1730.25 -5221.0
+  smooth off
 endline
 
 line wall
@@ -6917,6 +6921,7 @@ line wall
   2310.0 -6943.0 2311.0 -6929.5 2315.0 -6917.0
   2319.0 -6904.5 2320.0 -6903.5 2320.5 -6891.5
   2321.0 -6879.5 2320.5 -6880.5 2320.75 -6874.25
+  smooth off
 endline
 
 line wall
@@ -7047,6 +7052,7 @@ endline
 area u:galerie
   l619-3271--7587
 endarea
+
 line border -id l619-3271--7587 -close on
   3262.5 -7574.0
   3247.5 -7572.5 3221.0 -7576.5 3222.5 -7588.0
@@ -7347,6 +7353,7 @@ line wall
   1697.75 -5315.75 1708.25 -5312.5 1712.5 -5307.25
   1716.75 -5302.0 1726.25 -5287.5 1728.0 -5276.0
   1729.75 -5264.5 1739.0 -5240.0 1742.0 -5218.75
+  smooth off
 endline
 
 point 1673.0620000000001 -5315.5599999999995 station -name A153

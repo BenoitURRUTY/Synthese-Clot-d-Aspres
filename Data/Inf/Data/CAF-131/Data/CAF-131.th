@@ -4,7 +4,6 @@ survey CAF-131 -title "CAF-131" -entrance CAF131
 
 
   centerline
-  # declination -1.13 grad # (calcul avec logiciel declimag)
   date 2011.7.9
     team "Yann Cairo"
     team "Gilles Palué"

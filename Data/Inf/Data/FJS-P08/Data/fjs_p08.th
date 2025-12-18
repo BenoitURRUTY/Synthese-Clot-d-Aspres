@@ -5,7 +5,9 @@ survey fjs_p08 -title "fjs p08"
 
   centerline
     date 2025.08.09 
-    # team Benoît Urruty 
+    team "Benoît Urruty"
+    cs EPSG:2154 
+		fix 8 903575.699 6440484.78 1615.868 #DGPS 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

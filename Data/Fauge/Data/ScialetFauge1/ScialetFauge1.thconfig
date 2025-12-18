@@ -306,28 +306,28 @@ endlayout
   
 # 3-EXPORTS
 
-#export map -fmt xvi -layout xviexport -o Data/ScialetFauge1-map.xvi
-#export map -proj extended -layout xviexport -fmt xvi -o Data/ScialetFauge1-coupe.xvi
-#export map -proj [elevation 17] -layout xviexport -o Data/ScialetFauge1-coupe_elevation.xvi 
+export map -fmt xvi -layout xviexport -o Data/ScialetFauge1-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/ScialetFauge1-coupe.xvi
+export map -proj [elevation 17] -layout xviexport -o Data/ScialetFauge1-coupe_elevation.xvi 
 
 # Select maps
 #	select MP-ScialetFauge1-plan-tot@ScialetFauge1
 #  select MC-ScialetFauge1-coupe-tot@ScialetFauge1
 	 
-#export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/ScialetFauge1-coupe_elevation.pdf 
-#export map -projection extended -layout my_layout-coupe -o Outputs/ScialetFauge1-coupe.pdf 
-#export map -o Outputs/ScialetFauge1-plan.pdf -layout my_layout
+export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/ScialetFauge1-coupe_elevation.pdf 
+export map -projection extended -layout my_layout-coupe -o Outputs/ScialetFauge1-coupe.pdf 
+export map -o Outputs/ScialetFauge1-plan.pdf -layout my_layout
  
-#export model -enable centerline -o Outputs/ScialetFauge1.lox
-#export model -enable centerline -o Outputs/ScialetFauge1.dxf
-#export continuation-list -o Outputs/questions.html
-#export cave-list -o Outputs/ScialetFauge1.html  
+export model -enable centerline -o Outputs/ScialetFauge1.lox
+export model -enable centerline -o Outputs/ScialetFauge1.dxf
+export continuation-list -o Outputs/questions.html
+export cave-list -o Outputs/ScialetFauge1.html  
 
 # Export des fichiers ESRI
-#export map -proj plan -fmt esri -o Outputs/ScialetFauge1 -layout my_layout
-#export model -enable centerline -fmt esri -o Outputs/ScialetFauge1-model
+export map -proj plan -fmt esri -o Outputs/ScialetFauge1 -layout my_layout
+export model -enable centerline -fmt esri -o Outputs/ScialetFauge1-model
 
 
 # Export des fichiers kml
-#export map -proj plan -fmt kml -o Outputs/ScialetFauge1.kml -layout my_layout
+export map -proj plan -fmt kml -o Outputs/ScialetFauge1.kml -layout my_layout
 export model -fmt kml -o Outputs/ScialetFauge1-model.kml

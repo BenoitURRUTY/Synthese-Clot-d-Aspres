@@ -6,6 +6,10 @@ input Data/jonction.th2
 join ligne1 ligne2
 join ligne3 ligne4
 join ligne5 ligne6
+# join ligne7 ligne8
+# join ligne9 ligne10
+join brumes_bas_puits_du_balcon SP-BM-4
+
 input BM_maps.th
 
 endsurvey

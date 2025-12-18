@@ -1,16 +1,13 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -332.5 -3999 5080.5 8781.56
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Bagnards_Sc37_Page_3.png 0 {}
+##XTHERION## xth_me_area_adjust -63.5 -4091.0 5349.5 9804.1782
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {1.0 1 1.0} {1.5 {}} Bagnards_Sc37_Page_3.png 0 {}
 ##XTHERION## xth_me_image_insert {64.5 1 1.0} {6434.0 {}} Bagnards_Sc37.png 0 {}
+##XTHERION## xth_me_image_insert {1325.81 1 1.0} {-2201.96 Bagnards} Bagnards-map.xvi 0 {}
 
 
 
 scrap SP-Bagnards-1 -projection plan -scale [462.5 -3507.5 1065.0 -3507.5 0.0 0.0 10 0.0 m]
-
-point 1880.0 -2525.75 station -name Fond88@Bagnards
-
-point 1353.5 -2235.25 station -name Bagnards@Bagnards
 
 point 1362.5 -2114.0 label -text "P5" -scale xl
 
@@ -57,6 +54,12 @@ line slope
   l-size 10.7
 endline
 
+point 1358.3400000000001 -2152.89 station -name A3@Bagnards
+
+point 1318.69 -2148.2899999999995 station -name A2@Bagnards
+
+point 1325.8099999999997 -2201.9600000000005 station -name Bagnards@Bagnards
+
 line slope
   1307.25 -2203.5
   1312.25 -2203.5 1346.75 -2213.25 1349.5 -2214.75
@@ -81,10 +84,6 @@ endscrap
 
 
 scrap SP-Bagnards-2 -projection plan -scale [462.5 -3507.5 1065.0 -3507.5 0.0 0.0 10 0.0 m]
-
-point 1880.0 -2525.75 station -name Fond88@Bagnards
-
-point 1353.5 -2235.25 station -name Bagnards@Bagnards
 
 line wall
   1467.5 -2165.5
@@ -162,6 +161,12 @@ line slope
   l-size 14.2
 endline
 
+point 1573.0 -2224.0 station -name A7@Bagnards
+
+point 1497.7 -2188.49 station -name A6@Bagnards
+
+point 1428.55 -2230.0899999999997 station -name A4@Bagnards
+
 line wall
   1435.5 -1897.0
   1433.5 -1901.0 1411.5 -1960.5 1408.5 -1967.5
@@ -207,10 +212,6 @@ endscrap
 
 
 scrap SP-Bagnards-3 -projection plan -scale [462.5 -3507.5 1065.0 -3507.5 0.0 0.0 10 0.0 m]
-
-point 1880.0 -2525.75 station -name Fond88@Bagnards
-
-point 1353.5 -2235.25 station -name Bagnards@Bagnards
 
 line wall -subtype pit
   1190.0 -1871.0
@@ -405,6 +406,20 @@ line wall
   smooth off
 endline
 
+point 1160.9 -2076.41 station -name A13@Bagnards
+
+point 1142.3500000000001 -1924.0399999999997 station -name A12@Bagnards
+
+point 1254.42 -1810.0399999999997 station -name A10@Bagnards
+
+point 1195.96 -1827.7999999999997 station -name A11@Bagnards
+
+point 1284.48 -2189.87 station -name A14@Bagnards
+
+point 1392.5 -1930.5 station -name A9@Bagnards
+
+point 1482.5900000000001 -2084.0899999999997 station -name A8@Bagnards
+
 line wall
   1640.5 -2231.0
   1632.0 -2233.5 1617.5 -2239.5 1609.5 -2239.5
@@ -498,10 +513,6 @@ endscrap
 
 
 scrap SP-Bagnards-4 -projection plan -scale [462.5 -3507.5 1065.0 -3507.5 0.0 0.0 10 0.0 m]
-
-point 1880.0 -2525.75 station -name Fond88@Bagnards
-
-point 1353.5 -2235.25 station -name Bagnards@Bagnards
 
 line pit
   1219.5 -2180.5
@@ -1187,6 +1198,30 @@ point 1526.0 -2277.0 station -name A28@Bagnards
 
 point 1376.5 -2645.5 station -name A30@Bagnards
 
+point 1285.98 -2138.45 station -name A18@Bagnards
+
+point 1242.72 -2190.66 station -name A17@Bagnards
+
+point 1767.4 -2181.5599999999995 station -name A23@Bagnards
+
+point 1596.56 -2044.7199999999998 station -name A22@Bagnards
+
+point 1567.24 -2076.8399999999997 station -name A21@Bagnards
+
+point 1499.5 -3435.0 station -name A34@Bagnards
+
+point 1398.54 -3434.4299999999994 station -name A33@Bagnards
+
+point 1306.22 -3011.2 station -name A31@Bagnards
+
+point 1262.79 -3082.0499999999997 station -name A32@Bagnards
+
+point 1774.0 -2392.24 station -name A25@Bagnards
+
+point 1499.31 -2040.6299999999997 station -name A20@Bagnards
+
+point 1872.0 -2510.75 station -name Fond88@Bagnards
+
 line wall
   1305.0 -2402.5
   1312.0 -2407.5 1316.5 -2414.5 1328.0 -2418.5
@@ -1658,6 +1693,14 @@ endline
 
 point 1878.5 -2816.0 label -text "P4" -scale xl
 
+point 1940.37 -2990.7999999999997 station -name A38@Bagnards
+
+point 1814.74 -3304.4799999999996 station -name A37@Bagnards
+
+point 1631.21 -3242.1799999999994 station -name A36@Bagnards
+
+point 1464.71 -3338.24 station -name A35@Bagnards
+
 line wall -reverse on
   1148.75 -2598.25
   1154.25 -2607.75 1156.5 -2614.0 1160.5 -2620.25
@@ -1882,10 +1925,6 @@ point 1110.5 -2243.5 station -name A41@Bagnards
 point 1100.5 -2605.5 station -name A40@Bagnards
 
 point 1711.5 -2873.0 station -name A39@Bagnards
-
-point 1880.0 -2525.75 station -name Fond88@Bagnards
-
-point 1353.5 -2235.25 station -name Bagnards@Bagnards
 
 endscrap
 

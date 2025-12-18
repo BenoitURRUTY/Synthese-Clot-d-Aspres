@@ -10,5 +10,6 @@ input Silence_maps.th
 join id1 id1-1
 join id1-2 id1-1
 
+join SP-SB-2 SP-jonc-1
 
 endsurvey

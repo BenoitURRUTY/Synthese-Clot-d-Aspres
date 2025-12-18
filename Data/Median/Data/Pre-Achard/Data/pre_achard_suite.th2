@@ -1,11 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -30.0 -5122.0 5318.0 35.0
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {8.5 1 1.0} {11.5 {}} Pre-Achard-plan.png 0 {}
 
 
 
-scrap SP-Pre-suite-1 -projection plan -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m] -station-names "" "@pre_achard_suite"
+scrap SP-Pre-suite-1 -projection plan -station-names "" "@pre_achard_suite" -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m]
 
 line wall
   1782.5 -1455.0
@@ -486,7 +486,6 @@ line wall
   smooth off
 endline
 
-
 line wall
   2029.0 -2747.5
   2029.0 -2752.0 2026.0 -2751.25 2021.0 -2757.0
@@ -581,12 +580,11 @@ line wall
   smooth off
 endline
 
-
 endscrap
 
 
 
-scrap SP-Pre-suite-2 -projection plan -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m] -station-names "" "@pre_achard_suite"
+scrap SP-Pre-suite-2 -projection plan -station-names "" "@pre_achard_suite" -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m]
 
 line wall -subtype unsurveyed
   1341.0 -2697.0
@@ -1247,13 +1245,11 @@ line wall
   smooth off
 endline
 
-
-
 endscrap
 
 
 
-scrap SP-Pre-suite-3 -projection plan -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m] -station-names "" "@pre_achard_suite"
+scrap SP-Pre-suite-3 -projection plan -station-names "" "@pre_achard_suite" -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m]
 
 line wall
   2995.0 -2739.0
@@ -1345,12 +1341,11 @@ line wall
   smooth off
 endline
 
-
 endscrap
 
 
 
-scrap SP-Pre-suite-4 -projection plan -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m] -station-names "" "@pre_achard_suite"
+scrap SP-Pre-suite-4 -projection plan -station-names "" "@pre_achard_suite" -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m]
 
 point 2805.5 -2439.5 station -name A98
 
@@ -1414,12 +1409,11 @@ line wall -reverse on
   smooth off
 endline
 
-
 endscrap
 
 
 
-scrap SP-Pre-suite-6 -projection plan -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m] -station-names "" "@pre_achard_suite"
+scrap SP-Pre-suite-6 -projection plan -station-names "" "@pre_achard_suite" -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m]
 
 line pit
   2746.0 -2458.5
@@ -1456,12 +1450,11 @@ line wall -reverse on
   smooth off
 endline
 
-
 endscrap
 
 
 
-scrap SP-Pre-suite-7 -projection plan -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m] -station-names "" "@pre_achard_suite"
+scrap SP-Pre-suite-7 -projection plan -station-names "" "@pre_achard_suite" -scale [1611.0 -2433.0 1611.0 -1837.75 0.0 0.0 0.0 50 m]
 
 line pit
 endline
@@ -1923,10 +1916,6 @@ line wall
   smooth off
 endline
 
-
 endscrap
-
-
-
 
 

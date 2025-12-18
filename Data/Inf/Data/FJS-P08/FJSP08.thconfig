@@ -5,31 +5,27 @@ encoding  utf-8
 # This work is under the licence Creatice Commonc CC-by-nc-sa v.4 
 
 # 1-SOURCES  
-# La ligne source spe cifie le fichier où sont les données topo 
+# La ligne source specifie le fichier o� sont les donn�es topo 
 # (Au fichier "nomcavite.th" il faudra avoir une ligne 
-# "input "nomcavite.th2" pour spécifier le fichier où se trouvent 
-# les données du dessin, comme ça, ce fichier thconfig appelera  
+# "input "nomcavite.th2" pour sp�cifier le fichier o� se trouvent 
+# les donn�es du dessin, comme �a, ce fichier thconfig appelera  
 # nomcavite.th" et a son tour, "nomcavite.th" appelera 
 # "nomcavite.th2") 
-source Malleole-tot.th
+source FJSP08-tot.th
 
 
-
-
-# Appeller le fichier de coordonnées de la cavité
+# Appeller le fichier de coordonn�es de la cavit�
 #input legends/entrances_coordinates.th
 
 # Ajoute un fichier de configuration
 # Voir https://github.com/robertxa/Th-Config-Xav pour un exemple
 input ../../../../config.thc  
-
-
 # 2-LAYOUT   
 
 layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
-	scale 1 70 # pour le plan
+	scale 1 50 # pour le plan
 	#scale 1 1000 # pour la coupe
 	# taille de la grille
 	grid-size 1 1 1 m
@@ -45,7 +41,7 @@ layout my_layout
    copy langue-fr
       
    # Titre  
-   doc-title "Scialet-Malleole"
+   doc-title "FJSP08"
    # Auteur
    doc-author "Benoît Urruty"
 
@@ -99,19 +95,19 @@ layout my_layout
    opacity 75
 
    # Un commentaire a ajounter au titule,
-   map-comment "<it>Plan<ss> - Ville, depart, Pays"
+   map-comment "<it>Plan<ss> - Villard-de-Lans, 38, France"
 
    # Afficher les statistiques d explo par équipe/nom. C est lourd
    # si la cavite est importante et qu il y a beaucoup d explorateurs
    statistics explo-length off
    # Afficher developpement et profondeur de la cavite
-   statistics topo-length on
+   statistics topo-length off
 
    # Nous voulons une legende pour expliquer les symboles. "on" imprimera
    # seulement la legende des symboles dessines sur la topo, si l on veut
    # pour tous les symboles, utilises ou pas, il faut indiquer "all".
    # "legend off" = pas de legende
-   legend on
+   legend off
 
    # Par defaut, la legende est de 14 cm de largeur
    legend-width 25 cm
@@ -164,9 +160,9 @@ layout my_layout
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Scialet-Malleole if cavename is empty
+      \ifx\temp\nostring          % PerteFauge if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Scialet de la Malléole} 		
+         \cavename={FJSP08} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -185,7 +181,7 @@ layout my_layout-coupe
    copy langue-fr
       
    # Titre  
-   doc-title "Scialet-Malleole"
+   doc-title "PerteFauge"
    # Auteur
    doc-author "Benoit Urruty"
 
@@ -297,9 +293,9 @@ layout my_layout-coupe
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Scialet-Malleole if cavename is empty
+      \ifx\temp\nostring          % PerteFauge if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Scialet de la Malléole} 		
+         \cavename={PerteFauge} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -310,28 +306,28 @@ endlayout
   
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Scialet-Malleole-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Scialet-Malleole-coupe.xvi
-export map -proj [elevation 17] -layout xviexport -o Data/Scialet-Malleole-coupe_elevation.xvi 
+export map -fmt xvi -layout xviexport -o Data/PerteFauge-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/PerteFauge-coupe.xvi
+export map -proj [elevation 17] -layout xviexport -o Data/PerteFauge-coupe_elevation.xvi 
 
 # Select maps
-	select MP-Scialet-Malleole-plan-tot@Scialet-Malleole
-#  select MC-Scialet-Malleole-coupe-tot@Scialet-Malleole
+#	select MP-PerteFauge-plan-tot@PerteFauge
+#  select MC-PerteFauge-coupe-tot@PerteFauge
 	 
-export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Scialet-Malleole-coupe_elevation.pdf 
-export map -projection extended -layout my_layout-coupe -o Outputs/Scialet-Malleole-coupe.pdf 
-export map -o Outputs/Scialet-Malleole-plan.pdf -layout my_layout
+#export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/PerteFauge-coupe_elevation.pdf 
+export map -projection extended -layout my_layout-coupe -o Outputs/PerteFauge-coupe.pdf 
+export map -o Outputs/PerteFauge-plan.pdf -layout my_layout
  
-export model -enable centerline -o Outputs/Scialet-Malleole.lox
-#export model -enable centerline -o Outputs/Scialet-Malleole.dxf
+export model -enable centerline -o Outputs/PerteFauge.lox
+#export model -enable centerline -o Outputs/PerteFauge.dxf
 #export continuation-list -o Outputs/questions.html
-#export cave-list -o Outputs/Scialet-Malleole.html  
+#export cave-list -o Outputs/PerteFauge.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Scialet-Malleole -layout my_layout
-export model -enable centerline -fmt esri -o Outputs/Scialet-Malleole-model
+#export map -proj plan -fmt esri -o Outputs/PerteFauge -layout my_layout
+#export model -enable centerline -fmt esri -o Outputs/PerteFauge-model
 
 
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/Scialet-Malleole.kml -layout my_layout
-export model -fmt kml -o Outputs/Scialet-Malleole-model.kml
+#export map -proj plan -fmt kml -o Outputs/PerteFauge.kml -layout my_layout
+export model -fmt kml -o Outputs/PerteFauge-model.kml

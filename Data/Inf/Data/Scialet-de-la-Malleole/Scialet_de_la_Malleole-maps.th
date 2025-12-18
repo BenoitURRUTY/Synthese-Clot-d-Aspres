@@ -5,8 +5,8 @@ encoding utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Scialet_de_la_Malleole-plan-tot -title "Scialet de la Malléole"
-	SP-Scialet_de_la_Malleole-1
-	#break
+	SP-M-1
+		#break
 	#SP-Scialet_de_la_Malleole-2
 endmap
 

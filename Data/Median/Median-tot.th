@@ -17,10 +17,16 @@ input Data/Pre-Achard/pre-achard-tot.th
 equate A22@pre_achard_suite.pre_achard-tot A76@Silence.Silence
 
 equate 323@Silence.Silence A3@riviere_casse_pieds.riviere_casse_pieds.blizzard # jonction a confirmer
+equate A6b@Autoroute.pre_achard-tot 103@Silence.Silence
 
 input Median_maps.th
 
 join SP-Principal-5@Blizzard.blizzard SP-SB-5@pre_achard-tot
 join SP-Principal-5@Blizzard.blizzard SP-BM-4@brumes-tot
+join BL1@Blizzard.blizzard ligne10@brumes-tot
+join BL2@Blizzard.blizzard ligne9@brumes-tot
+join L1@Silence L11@pre_achard-tot
+join L2@Silence L22@pre_achard-tot
+
 endsurvey
 

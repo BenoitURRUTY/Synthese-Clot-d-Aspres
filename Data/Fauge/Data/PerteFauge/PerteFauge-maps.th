@@ -6,10 +6,8 @@ encoding utf-8
 
 map MP-PerteFauge-plan-tot -title "Perte de la Fauge"
 	break
-	SP-Serpenterre-2
-	break
-	
-	SP-Serpenterre-1
+	SP-PF-1
+
 	
 endmap
 # map MC-PerteFauge-coupe-tot -title "Perte de la Fauge"
