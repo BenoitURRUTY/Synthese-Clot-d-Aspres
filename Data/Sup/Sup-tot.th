@@ -27,6 +27,8 @@ equate AB46@Oreade.Oreade A46@Nymphe.Nymphe
 #     equate TT@1.menisque.bourrasque A69@bourrasque.Bourrasque.bourrasque
 #    equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds   # Ajouté dans le dossier amont car jonctionne le median et le supérieur
 
+join SP-Nymphe-5@Nymphe SP-Mistral-3@Mistral
+
 input Sup-map.th
 
 endsurvey

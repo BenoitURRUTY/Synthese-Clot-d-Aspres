@@ -1,6 +1,6 @@
 map MP-Clot-Aspres
-MP-superieur@superieur
-MP-Median@median
-MP-Inferieur@inferieur
-# MP-fauges@fauges
+    MP-superieur@superieur
+    MP-Median@median
+    MP-Inferieur@inferieur
+    MP-fauges@fauge
 endmap

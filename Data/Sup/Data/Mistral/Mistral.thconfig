@@ -18,7 +18,7 @@ layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
 	#scale 1 50 # pour le plan
-	scale 1 100 # pour la coupe
+	scale 1 81 # pour la coupe
 	# taille de la grille
 	grid-size 1 1 1 m
 	# mettre la grille en arrière plan

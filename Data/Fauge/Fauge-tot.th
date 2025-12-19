@@ -7,6 +7,6 @@ survey fauge -title "Réseau de la Fauge"
 input Data/Grotte_du_Serpent-Terre/Grotte_du_Serpent-Terre-tot.th
 input Data/PerteFauge/PerteFauge-tot.th
 input Data/ScialetFauge1/ScialetFauge1-tot.th
-# input Fauges-map.th
+input Fauges-map.th
 endsurvey
 
