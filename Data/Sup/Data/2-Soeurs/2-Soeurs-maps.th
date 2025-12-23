@@ -43,6 +43,6 @@ break
 endmap
 
 map MC-2-Soeurs-coupe-tot -title "2-Soeurs"
-  SC-2S-1
 
+  SC-2S-1
 endmap

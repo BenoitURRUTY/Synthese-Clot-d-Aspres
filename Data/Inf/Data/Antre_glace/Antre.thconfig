@@ -1,21 +1,38 @@
 encoding  utf-8
 
-# 1-SOURCES 
+# File written by pytro2th (Xavier Robert)  
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr> 
+# This work is under the licence Creatice Commonc CC-by-nc-sa v.4 
 
-source Median-tot.th
+# 1-SOURCES  
+# La ligne source spe cifie le fichier où sont les données topo 
+# (Au fichier "nomcavite.th" il faudra avoir une ligne 
+# "input "nomcavite.th2" pour spécifier le fichier où se trouvent 
+# les données du dessin, comme ça, ce fichier thconfig appelera  
+# nomcavite.th" et a son tour, "nomcavite.th" appelera 
+# "nomcavite.th2") 
+source Antre-tot.th
 
-# Add config file
-input ../../config.thc 
+
+
+
+# Appeller le fichier de coordonnées de la cavité
+#input legends/entrances_coordinates.th
+
+# Ajoute un fichier de configuration
+# Voir https://github.com/robertxa/Th-Config-Xav pour un exemple
+input ../../../../config.thc  
+
 
 # 2-LAYOUT   
 
 layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
-	#scale 1 50 # pour le plan
-	scale 1 132.5 # pour la coupe
+	scale 1 170 # pour le plan
+	#scale 1 1000 # pour la coupe
 	# taille de la grille
-	grid-size 10 10 10 m
+	grid-size 1 1 1 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout
@@ -28,7 +45,7 @@ layout my_layout
    copy langue-fr
       
    # Titre  
-   doc-title "Median"
+   doc-title "Antre-Glace"
    # Auteur
    doc-author "Benoît Urruty"
 
@@ -54,13 +71,13 @@ layout my_layout
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 300
+   scale 1 200
 
    #surface bottom
    #surface-opacity 70
 
    # echelle graphique 100 m ampleur
-   scale-bar 20 m
+   scale-bar 50 m
 
    # Pour faire une rotation
    #rotate 90
@@ -82,23 +99,23 @@ layout my_layout
    opacity 75
 
    # Un commentaire a ajounter au titule,
-   map-comment "<it>Plan<ss> - Ville, depart, Pays"
+   map-comment "<it>Plan<ss> - Villard-de-Lans, 38, Vercors"
 
    # Afficher les statistiques d explo par équipe/nom. C est lourd
    # si la cavite est importante et qu il y a beaucoup d explorateurs
    statistics explo-length off
    # Afficher developpement et profondeur de la cavite
-   statistics topo-length on
+   statistics topo-length off
 
    # Nous voulons une legende pour expliquer les symboles. "on" imprimera
    # seulement la legende des symboles dessines sur la topo, si l on veut
    # pour tous les symboles, utilises ou pas, il faut indiquer "all".
    # "legend off" = pas de legende
-   legend on
+   legend off
 
    # Par defaut, la legende est de 14 cm de largeur
-   legend-width 25 cm
-   legend-columns 3
+   legend-width 14 cm
+   legend-columns 2
 
    # Specification la position de la manchette : interieur
    # occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -116,12 +133,10 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
+   # symbol-hide line survey
    #symbol-hide point cave-station
 
-   debug station-names
-   # debug on
-   debug scrap-names
+   #debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -149,9 +164,9 @@ layout my_layout
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Median if cavename is empty
+      \ifx\temp\nostring          % Antre-Glace if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Median} 		
+         \cavename={Scialet Antre-Glace} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -170,7 +185,7 @@ layout my_layout-coupe
    copy langue-fr
       
    # Titre  
-   doc-title "Median"
+   doc-title "Antre-Glace"
    # Auteur
    doc-author "Benoit Urruty"
 
@@ -282,9 +297,9 @@ layout my_layout-coupe
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Median if cavename is empty
+      \ifx\temp\nostring          % Antre-Glace if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Median} 		
+         \cavename={Scialet Antre-Glace} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -292,29 +307,30 @@ layout my_layout-coupe
   
 endlayout  
 
-
+  
 # 3-EXPORTS
 
-export map -proj plan -fmt xvi -layout xviexport -o Data/Median_plan.xvi
-export map -proj extended -fmt xvi -layout xviexport -o Data/Median_coupe.xvi 
+export map -fmt xvi -layout xviexport -o Data/Antre-Glace-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/Antre-Glace-coupe.xvi
+export map -proj [elevation 17] -layout xviexport -o Data/Antre-Glace-coupe_elevation.xvi 
 
 # Select maps
-#	select MP-Median-plan-tot@Median
-#  select MC-Median-coupe-tot@Median
+#	select MP-Antre-Glace-plan-tot@Antre-Glace
+#  select MC-Antre-Glace-coupe-tot@Antre-Glace
 	 
-export map -proj plan -fmt pdf -layout my_layout -o Outputs/Median_plan.pdf
-#export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Median_coupe.pdf
+export map -projection extended -layout my_layout-coupe -o Outputs/Antre-Glace-coupe.pdf 
+export map -o Outputs/Antre-Glace-plan.pdf -layout my_layout
  
-export model  -o Outputs/Median.lox
-export model -o Outputs/Median.dxf
+export model -enable centerline -o Outputs/Antre-Glace.lox
+export model -enable centerline -o Outputs/Antre-Glace.dxf
 export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/Median.html  
+export cave-list -o Outputs/Antre-Glace.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Median -layout my_layout
-export model -enable centerline -fmt esri -o Outputs/Median-model
+export map -proj plan -fmt esri -o Outputs/Antre-Glace -layout my_layout
+export model -enable centerline -fmt esri -o Outputs/Antre-Glace-model
 
 
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/Median.kml -layout my_layout
-export model -fmt kml -o Outputs/Median-model.kml
+export map -proj plan -fmt kml -o Outputs/Antre-Glace.kml -layout my_layout
+export model -fmt kml -o Outputs/Antre-Glace-model.kml

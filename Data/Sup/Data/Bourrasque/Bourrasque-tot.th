@@ -10,6 +10,7 @@ input Data/Bourrasque/Bourrasque-tot.th
 #    equate A48@bourrasque.Bourrasque A85@Nymphe.Nymphe
 input Data/Collecteur-Bourrasque/collecteur_bourrasque-tot.th
     equate TT@toto1.collecteur_bourrasque A60@bourrasque.Bourrasque
+    join reseau_sup@collecteur_bourrasque SP-Bourrasque-9@Bourrasque
 #    equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds   # Ajouté dans le dossier amont car jonctionne le median et le supérieur
 
 endsurvey

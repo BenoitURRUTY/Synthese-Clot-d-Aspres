@@ -8,6 +8,8 @@ fix Nymphe	902954.225 6437490.707 2027.4 #pointage carte
 station Nymphe "Nymphe Emue"
 
 units length feet
+units compass degrees 
+units clino degrees 
 data topofil from to length compass clino left right up down
 
 Nymphe         A2    52.34   356.91   -34.96     0.00     0.00     0.00     0.00
@@ -187,6 +189,13 @@ A164                   Jonction-2   157.11   125.84    11.45     0.00     0.00  
     Jonction-13                  Jonction-14    26.08    84.56    20.76     0.00     0.00     0.00     0.00
     Jonction-14                  Jonction-15    20.22    93.37    13.21     0.00     0.00     0.00     0.00
     Jonction-15                  Jonction-16    11.62    95.71     0.00     0.00     0.00     0.00     0.00
+    A91                   M2   108.1   315.87    17.37     0.00     0.00     0.00     0.00
+    M2                   M3   162.7   354.69     1.15     0.00     0.00     0.00     0.00
+    M3                   M4   216   108.43    -3.78     0.00     0.00     0.00     0.00
+    M4                   M5    56.8  129.21     6.14     0.00     0.00     0.00     0.00
+    M5                   M6   93.9   122.91     9.38     0.00     0.00     0.00     0.00
+    M6                   M7   65.3   352.87    10.60     0.00     0.00     0.00     0.00
+    M7                   M8   94.7   350.47    13.12     0.00     0.00     0.00     0.00
 
 endcenterline
 

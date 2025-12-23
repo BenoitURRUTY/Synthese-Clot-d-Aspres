@@ -1,0 +1,18 @@
+encoding utf-8 
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Antre-plan-tot
+SP-Antre-1
+break
+SP-Antre-2
+break
+SP-Antre-3
+break
+SP-Antre-4
+endmap
+# map MC-Antre-coupe-tot 
+
+# endmap

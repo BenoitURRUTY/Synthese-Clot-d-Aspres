@@ -7,26 +7,30 @@ survey median -title "Réseau Médian du Clot d'Aspres"
 
 input Data/Blizzard/Blizzard-tot.Th
 equate E13@Principal.Blizzard.blizzard A16@Autoroute.pre_achard-tot
+join SP-Principal-5@Blizzard.blizzard SP-SB-5@pre_achard-tot
+join SP-Principal-5@Blizzard.blizzard SP-BM-4@brumes-tot
 
 input Data/Brumes_matinales/BM-tot.th
 equate A68@Principal.Blizzard.blizzard 414@brumes_matinales.brumes-tot
 equate E13@Principal.Blizzard.blizzard A13@brumes_matinales.brumes-tot
+join BL1@Blizzard.blizzard ligne10@brumes-tot
+join BL2@Blizzard.blizzard ligne9@brumes-tot
 
 input Data/Silence/Silence-tot.th #add maps
 input Data/Pre-Achard/pre-achard-tot.th
 equate A22@pre_achard_suite.pre_achard-tot A76@Silence.Silence
+join SP-SB-7@Silence SP-Pre-suite-1@pre_achard-tot
+join L1@Silence L11@pre_achard-tot
+join L2@Silence L22@pre_achard-tot
 
 equate 323@Silence.Silence A3@riviere_casse_pieds.riviere_casse_pieds.blizzard # jonction a confirmer
 equate A6b@Autoroute.pre_achard-tot 103@Silence.Silence
 
 input Median_maps.th
 
-join SP-Principal-5@Blizzard.blizzard SP-SB-5@pre_achard-tot
-join SP-Principal-5@Blizzard.blizzard SP-BM-4@brumes-tot
-join BL1@Blizzard.blizzard ligne10@brumes-tot
-join BL2@Blizzard.blizzard ligne9@brumes-tot
-join L1@Silence L11@pre_achard-tot
-join L2@Silence L22@pre_achard-tot
+
+
+
 
 endsurvey
 

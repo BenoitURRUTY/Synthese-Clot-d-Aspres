@@ -354,7 +354,7 @@ layout drawingconfig
 	symbol-color point ice-pillar [0 0 100]
 	symbol-color point ice-stalagmite [0 0 100]
 	symbol-color point ice-stalactite [0 0 100]
-	symbol-color area ice [0 0 100]
+	symbol-color area ice [25 82 95]
 	symbol-color point snow [0 0 100]
 	symbol-color area snow [0 0 100]
 	symbol-color point spring [17 46 100]
@@ -483,6 +483,24 @@ layout drawingconfig
 			endfor;
 			);
 			#clip tmp_pic to p;
+			draw tmp_pic;
+		enddef;
+
+		#<en> To change sand aspects
+ 		#<fr> Pour modifier les aspects du sable dans l'aire associée
+	 	def a_ices (expr p) =
+			T:=identity;
+			pickup PenC;
+			path q; q = bbox p;
+			picture tmp_pic;
+			tmp_pic := image(
+			for i = xpart llcorner q step 0.1u until xpart urcorner q:
+				for j = ypart llcorner q step 0.1u until ypart urcorner q:
+					draw origin shifted ((i,j) randomized 0.1u) withpen PenC;
+				endfor;
+			endfor;
+			);
+			clip tmp_pic to p;
 			draw tmp_pic;
 		enddef;
 

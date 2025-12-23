@@ -6,7 +6,7 @@ encoding  utf-8
 
 
 
-scrap riviere_menisque -author 2008 "Martin Gerbaux" -copyright 2008 "licence CCby : http://creativecommons.org/licenses/by/2.0/fr" -scale [-128.0 -128.0 1624.0638 -128.0 0.0 0.0 44.50242052 0.0 m] 
+scrap riviere_menisque -author 2008 "Martin Gerbaux" -copyright 2008 "licence CCby : http://creativecommons.org/licenses/by/2.0/fr" -scale [-128.0 -128.0 1624.0638 -128.0 0.0 0.0 44.50242052 0.0 m]
 
 point 214.56 537.588 station -name 0@toto2
 
@@ -168,12 +168,12 @@ line wall -reverse on -subtype "unsurveyed"
   123.25 547.25 136.5 548.5 143.75 548.75
   151.0 549.0 197.25 551.0 200.0 551.0
   202.75 551.0 208.75 548.25 210.0 547.75
-  211.25 547.25 216.25 546.0 216.5 544.75
-  216.75 543.5 218.0 538.75 218.0 538.75
+  211.25 547.25 215.25 545.25 216.5 544.75
+  217.68 544.28 218.0 538.75 218.0 538.75
   smooth off
 endline
 
-line wall -id l115--2-457 -subtype "unsurveyed"
+line wall -subtype "unsurveyed"
   -129.5 440.5
   -128.0 445.0
   -126.0 453.5
@@ -310,7 +310,7 @@ line pit
   smooth off
 endline
 
-line border -id l269-510-556 -close on -subtype "invisible"
+line border -id l269-510-556 -close on -reverse on -subtype "invisible"
   442.0 546.5
   439.25 544.0
   433.5 544.0
@@ -404,7 +404,7 @@ area water
   l267-256-534
 endarea
 
-line border -id l267-256-534 -close on -subtype "invisible"
+line border -id l267-256-534 -close on -reverse on -subtype "invisible"
   219.75 540.0
   220.75 539.0 224.25 537.5 227.75 537.75
   231.25 538.0 277.75 535.0 277.75 535.0
@@ -456,7 +456,7 @@ line border -id l259-84-448 -close off -subtype "invisible"
   51.0 477.75
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed"
   41.25 302.75
   41.25 304.5 42.7 310.16 42.0 311.75
   40.25 315.75 22.75 393.5 22.25 394.5
@@ -486,7 +486,7 @@ line wall -id l116-23-454 -subtype "unsurveyed"
   22.5 442.0
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed"
   17.75 449.75
   18.75 448.75 17.25 450.25 18.5 444.5
   19.75 438.75 39.0 352.0 39.25 344.5
@@ -1925,7 +1925,13 @@ area sump
   l120-138-526
 endarea
 
-line border -id l120-138-526 -close on -reverse on -subtype "invisible"
+area water
+  l118-16-463
+  l255-2-460
+  l119-29-457
+endarea
+
+line border -id l120-138-526 -close on -subtype "invisible"
   48.0 473.5
   45.25 465.0
   62.75 449.75
@@ -1937,7 +1943,13 @@ line border -id l120-138-526 -close on -reverse on -subtype "invisible"
   48.0 473.5
 endline
 
-line border -id l255-2-460 -subtype "invisible"
+line border -subtype "invisible"
+  -1.75 455.0
+  -0.5 451.0 3.0 448.0 5.0 448.25
+  smooth off
+endline
+
+line border -id l255-2-460 -reverse on -subtype "invisible"
   -1.75 455.0
   -1.75 455.0 -1.0 455.5 0.0 457.0
   1.0 458.5 1.75 459.0 1.75 461.0
@@ -1948,16 +1960,7 @@ line border -id l255-2-460 -subtype "invisible"
   -14.0 471.0
 endline
 
-area water
-  l118-16-463
-  l120-138-526
-  l119-29-457
-  l111-59-297
-  l115--2-457
-  l255-2-460
-endarea
-
-line border -id l119-29-457 -subtype "invisible"
+line border -id l119-29-457 -reverse on -subtype "invisible"
   45.25 465.0
   40.5 465.75
   38.5 464.0
@@ -1965,9 +1968,10 @@ line border -id l119-29-457 -subtype "invisible"
   31.25 460.25 30.0 457.0 30.0 457.0
   smooth off
   20.25 453.75
+  20.25 453.75 9.5 448.25 5.0 448.25
 endline
 
-line border -id l118-16-463 -subtype "invisible"
+line border -id l118-16-463 -reverse on -subtype "invisible"
   -14.0 471.0
   -3.5 471.0
   2.75 469.0
@@ -1985,8 +1989,8 @@ line border -id l111-59-297 -close on -subtype "invisible"
   33.0 305.25
   59.0 297.25
   20.25 453.75
-  20.25 453.75 13.73 446.94 5.0 448.25
-  -10.0 450.5 33.0 305.25 33.0 305.25
+  20.25 453.75 11.75 449.25 6.75 448.5
+  -8.24 446.25 33.0 305.25 33.0 305.25
   smooth off
 endline
 
@@ -2034,7 +2038,7 @@ line wall
   -86.25 303.5
 endline
 
-line wall
+line wall -reverse on
   50.75 299.5
   50.0 298.0 43.25 295.25 41.5 294.25
   39.75 293.25 31.25 288.75 27.25 287.75
@@ -2060,7 +2064,7 @@ endscrap
 
 
 
-scrap reseau_sup -scale [-128.0 -128.0 1624.0638 -128.0 0.0 0.0 44.50242052 0.0 m] 
+scrap reseau_sup -scale [-128.0 -128.0 1624.0638 -128.0 0.0 0.0 44.50242052 0.0 m]
 
 point 1283.33 239.434 station -name 0@toto1
 

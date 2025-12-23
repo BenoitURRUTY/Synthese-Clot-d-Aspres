@@ -17,16 +17,22 @@ input Data/P200/P200-tot.th #add maps
 
 equate AB17@Oreade.Oreade A17@Nymphe.Nymphe
 equate AB46@Oreade.Oreade A46@Nymphe.Nymphe
+join SP-Nymphe-11@Nymphe SP-Oreade-5@Oreade
+join SP-Nymphe-19@Nymphe SP-Oreade-6@Oreade
 
 # Pour la Bourrasque, il faut revoir l'architecture et intégrer les lignes ci-dessous dans Data/Sup/Bourrasque
 
-    equate A48@bourrasque.Bourrasque.bourrasque A85@Nymphe.Nymphe
-    equate Jonction-16@Nymphe.Nymphe 64@2-soeurs.2-Soeurs
+equate A48@bourrasque.Bourrasque.bourrasque A85@Nymphe.Nymphe
+join SP-Bourrasque-7@Bourrasque.bourrasque SP-jonction-2@Nymphe
+join SP-jonction-3@Nymphe SP-Bourrasque-4@Bourrasque.bourrasque
 
+equate Jonction-16@Nymphe.Nymphe 64@2-soeurs.2-Soeurs
+join SP-jonc2S-2@Nymphe SP-2S-2@2-Soeurs
 # input Data/Bourrasque/Collecteur-Bourrasque/Data/collecteur_bourrasque.th
 #     equate TT@1.menisque.bourrasque A69@bourrasque.Bourrasque.bourrasque
 #    equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds   # Ajouté dans le dossier amont car jonctionne le median et le supérieur
 
+equate M8@Nymphe.Nymphe 70@Mistral.Mistral
 join SP-Nymphe-5@Nymphe SP-Mistral-3@Mistral
 
 input Sup-map.th

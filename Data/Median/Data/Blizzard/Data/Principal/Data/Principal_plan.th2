@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -172.5 -5115.0 3611.5 242.0
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {-44.5 1 1.0} {114.0 {}} {Aspres 2_MTD_better.png} 0 {}
 
 
@@ -1580,6 +1580,7 @@ line wall -id BL2
   2652.0 -425.0 2655.5 -397.0 2659.0 -387.5
   smooth off
   2659.0 -387.5 2662.0 -380.0 2667.5 -370.0
+  smooth off
 endline
 
 line water-flow -clip off
@@ -2012,7 +2013,7 @@ line pit
   smooth off
 endline
 
-line pit
+line wall -subtype pit
   822.5 -2897.5
   830.0 -2900.5 831.5 -2895.0 832.5 -2904.0
   833.5 -2913.0 838.5 -2922.0 846.0 -2921.0
