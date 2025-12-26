@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -329.78999999999894 -2006.4599999999991 10920.131 12809.057
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {1124.5 1 1.0} {11501.453 {}} Silence_plan_jonction.png 0 {}
 ##XTHERION## xth_me_image_insert {5333.700000000001 1 1.0} {3423.1400000000003 00@silence_7eme_art.Silence} Silence_plan.xvi 0 {}
 
@@ -859,26 +859,31 @@ point 5247.0 5370.5 label -text "P13" -scale xl
 line pit
   6149.0 6053.0
   6146.5 6043.0 6142.5 6025.5 6167.5 6027.5
+  smooth off
 endline
 
 line pit
   5943.5 5953.5
   5947.5 5939.5 5962.0 5917.5 5977.5 5916.5
+  smooth off
 endline
 
 line pit
   5903.0 5896.0
   5912.5 5887.5 5940.0 5859.0 5964.5 5861.0
+  smooth off
 endline
 
 line pit
   5965.5 5729.5
   5968.5 5725.5 5981.5 5703.5 6009.5 5726.0
+  smooth off
 endline
 
 line pit
   5928.5 5642.0
   5925.5 5634.5 5921.0 5607.5 5950.0 5613.5
+  smooth off
 endline
 
 line label -text "Galerie fossile" -scale xl
@@ -1858,12 +1863,14 @@ line wall -reverse on
   2662.0 11191.0 2687.0 11180.0 2704.0 11181.0
   2721.0 11182.0 2768.0 11183.0 2780.0 11186.0
   2792.0 11189.0 2803.0 11188.0 2854.0 11185.0
+  smooth off
 endline
 
 line wall -reverse on -subtype invisible
-  2241.5 11079.75
-  2222.0 11097.0 2219.0 11120.0 2221.0 11141.0
+  2214.5 11104.0
+  2213.5 11115.75 2219.0 11120.0 2221.0 11141.0
   2223.0 11162.0 2211.0 11178.0 2246.0 11208.0
+  smooth off
 endline
 
 line wall -reverse on -subtype invisible
@@ -2043,11 +2050,13 @@ line wall -subtype presumed
   1750.5 10900.0 1778.5 10894.0 1814.5 10897.5
   1850.5 10901.0 1899.5 10900.5 1907.5 10899.5
   1915.5 10898.5 1933.0 10894.0 1938.75 10891.25
+  smooth off
 endline
 
 line water-flow
   1845.0 10931.5
   1891.5 10927.0 1894.5 10924.0 1911.0 10923.5
+  smooth off
 endline
 
 line wall -subtype presumed
@@ -2056,6 +2065,7 @@ line wall -subtype presumed
   1851.0 10964.0 1809.0 10971.0 1797.0 10974.0
   1785.0 10977.0 1784.0 10976.5 1775.0 10983.0
   1766.0 10989.5 1749.5 10995.5 1732.75 10994.5
+  smooth off
 endline
 
 point 1665.69 10957.33 station -name 320

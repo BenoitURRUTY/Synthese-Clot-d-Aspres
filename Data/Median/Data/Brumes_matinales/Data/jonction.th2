@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -2981.2080000000005 -2547.5000000000005 1637.4379999999992 1996.6617999999994
 ##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {-332.5 1 1.0} {1347.034 {}} topo_papier/plan_brumes2.gif 0 {}
+##XTHERION## xth_me_image_insert {-323.75 1 1.0} {1362.284 {}} topo_papier/plan_brumes2.gif 0 {}
 ##XTHERION## xth_me_image_insert {-659.5 1 1.0} {992.2840000000001 {}} topo_papier/plan_brumes.gif 0 {}
 ##XTHERION## xth_me_image_insert {-2369.078000000001 1 1.0} {-886.6800000000003 0} Brumes-matinales-map.xvi 0 {}
 
@@ -181,8 +181,7 @@ endline
 
 line wall -subtype invisible
   659.5 1112.5
-  665.5 1105.5 679.02 1093.2 683.5 1090.25
-  smooth off
+  665.5 1105.5 671.25 1093.75 683.5 1090.25
 endline
 
 line wall -subtype "pit"
@@ -274,7 +273,7 @@ endline
 
 line pit
   659.5 1112.5
-  664.75 1103.5 677.0 1091.5 683.5 1090.25
+  664.75 1103.5 676.75 1090.75 683.5 1090.25
   smooth off
 endline
 

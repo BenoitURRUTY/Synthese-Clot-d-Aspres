@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 345.0 -7873.75 9152.0 -1408.75
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {469.5 1 1.0} {-1542.25 {}} {Aspres BM MTD.png} 0 {}
 
 
@@ -303,7 +303,7 @@ endline
 
 point 2045.5 -5278.5 label -text "P22"
 
-point 1965.5 -5355.0 label -text "P54"
+point 2074.5 -5376.0 label -text "P54 du Centenaire"
 
 endscrap
 
@@ -311,7 +311,7 @@ endscrap
 
 scrap SP-BM-2b -projection plan -station-names "" "@brumes_matinales" -scale [1874.75 -2834.1157000000003 2469.9116 -3014.6157000000003 0.0 0.0 50 0.0 m]
 
-point 2184.0 -5206.0 label -text "P40"
+point 2184.0 -5206.0 label -text "P40 du feu d'Artifice"
 
 line pit
   2109.25 -5245.25
@@ -1300,6 +1300,11 @@ line wall
   smooth off
 endline
 
+line label -text "L'Autoroute du Soleil" -scale xl
+  3652.0 -4272.0
+  3602.0 -4366.0 3406.0 -4880.0 3506.0 -5236.0
+endline
+
 line wall
   3724.0 -6172.0
   3733.0 -6161.0 3771.0 -6148.0 3782.0 -6122.0
@@ -2073,6 +2078,7 @@ line wall
   2676.5 -3757.25 2679.0 -3756.5 2679.75 -3737.25
   2680.5 -3718.0 2683.0 -3692.75 2682.25 -3679.75
   2681.5 -3666.75 2680.75 -3659.25 2678.0 -3656.25
+  altitude .
   2675.25 -3653.25 2671.5 -3647.5 2671.5 -3659.0
   2671.5 -3670.5 2671.0 -3678.0 2671.25 -3686.5
   2671.5 -3695.0 2670.75 -3701.5 2671.5 -3711.5

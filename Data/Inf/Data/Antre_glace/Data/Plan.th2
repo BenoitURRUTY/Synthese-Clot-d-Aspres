@@ -278,11 +278,13 @@ point 905.0 -821.0 label -text "P15 du Poker"
 line label -text "<center>Méandre du<br>Carré d'As"
   914.0 -870.0
   938.0 -877.0 993.0 -911.0 1007.0 -940.0
+  smooth off
 endline
 
 line label -text "<center>Méandre de la<br>Montre en or"
   847.0 -1186.0
   851.0 -1160.0 915.0 -1071.0 935.0 -1063.0
+  smooth off
 endline
 
 point 979.0 -1030.0 label -text "P10 de la Mèche"
@@ -329,14 +331,14 @@ line wall
   smooth off
 endline
 
-line wall -close on -reverse on -subtype pit
-  669.0 -919.0
-  658.25 -922.75 652.25 -929.75 653.5 -933.25
+line wall -close on -reverse on -subtype pit -outline in
+  667.5 -920.0
+  656.75 -923.75 652.25 -929.75 653.5 -933.25
   654.75 -936.75 663.0 -938.5 670.5 -937.5
   678.0 -936.5 691.75 -931.25 696.5 -928.25
   701.25 -925.25 705.5 -917.25 700.75 -916.0
   696.0 -914.75 686.75 -913.25 682.75 -914.5
-  678.75 -915.75 679.75 -915.25 669.0 -919.0
+  678.75 -915.75 678.25 -916.25 667.5 -920.0
 endline
 
 point 691.0 -981.5 water-flow -orientation 269.2
@@ -855,11 +857,13 @@ line water-flow -reverse on
   459.0 -536.75 407.5 -552.25 398.25 -555.25
   389.0 -558.25 371.5 -569.75 369.75 -578.5
   368.0 -587.25 370.5 -600.75 381.25 -598.25
+  smooth off
 endline
 
 line label -text "Réseau Aqualand"
   569.0 -189.0
   593.0 -207.0 664.0 -349.0 673.0 -384.0
+  smooth off
 endline
 
 line wall

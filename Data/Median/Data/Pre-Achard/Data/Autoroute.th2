@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 1120.5 -5169.5 4103.5 -654.5
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0.5 1 1.0} {-2.5 {}} Silence_plan_jonction_auto.png 0 {}
 
 
@@ -345,11 +345,13 @@ line pit
   1478.5 -2145.0
   1484.75 -2144.75 1490.5 -2141.75 1491.25 -2139.75
   1492.0 -2137.75 1494.0 -2132.25 1491.75 -2129.75
+  smooth off
 endline
 
 line water-flow
   1504.25 -2144.0
   1504.25 -2144.0 1496.75 -2139.75 1488.0 -2138.25
+  smooth off
 endline
 
 line wall -subtype invisible

@@ -38,6 +38,4 @@ join mur_d@grosse_galerie:end mur_dd@grosse_galerie:0
 join cc_d@grosse_galerie:0 meduse_d@grosse_galerie:0
 join cc_g@grosse_galerie:end meduse_g@grosse_galerie:end
 
-
-
 endsurvey
