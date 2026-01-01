@@ -1,9 +1,9 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1102.75 -3273.75 4445.6202 402.92830000000004
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {-641.0 1 1.0} {-270.25 {}} topo_1991/Nuits_Blanches_plan2.gif 0 {}
 ##XTHERION## xth_me_image_insert {28.01 1 1.0} {-233.98 1} ../topo_biboc/reseau_classique_plan.xvi 0 {}
-##XTHERION## xth_me_image_insert {115.26000000000022 1 1.0} {-152.48000000000002 1} ../../../../../../clot_d_aspres-Martin/Nuits_blanches/topographie/topo_biboc/reseau_classique_plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {81.76000000000022 1 1.0} {-274.98 1} ../../../../../../clot_d_aspres-Martin/Nuits_blanches/topographie/topo_biboc/reseau_classique_plan.xvi 0 {}
 
 
 
@@ -3453,7 +3453,7 @@ point 284.58 -210.2 station -name 10
 
 point 254.29 -215.14 station -name 9
 
-point 243.5 -244.0 station -name 6
+point 243.5 -244.0 station -name 7
 
 point 182.73 -284.24 station -name 5
 
@@ -3578,7 +3578,7 @@ line wall -id l96-594--211
   254.5 -236.5 253.5 -248.0 253.5 -248.0
   smooth off
   247.5 -252.0
-  243.5 -244.0
+  243.75 -245.5
   238.5 -238.0
   236.5 -247.0
   228.5 -261.5
@@ -3604,7 +3604,7 @@ line wall -id l96-594--211
   64.0 -246.5
 endline
 
-point 64.0 -240.0 station -name 0
+point 79.77000000000021 -239.89999999999986 station -name 0
 
 endscrap
 

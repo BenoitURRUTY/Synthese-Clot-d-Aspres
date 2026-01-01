@@ -793,6 +793,12 @@ line wall
   smooth off
 endline
 
+line pit
+  2051.5 -3252.5
+  2049.5 -3264.0 2044.0 -3288.0 2044.5 -3299.0
+  smooth off
+endline
+
 line wall -subtype pit
   2088.25 -3300.75
   2088.75 -3289.75 2084.75 -3272.0 2081.0 -3267.25
@@ -992,6 +998,14 @@ line wall -reverse on
 endline
 
 point 1315.222 -5134.48 station -name A66
+
+line pit
+  1401.5 -5074.0
+  1310.0 -5063.5 1310.0 -5127.0 1315.5 -5138.0
+  1321.0 -5149.0 1335.0 -5150.5 1342.5 -5155.0
+  1350.0 -5159.5 1388.5 -5148.5 1393.0 -5147.5
+  smooth off
+endline
 
 line wall
   1431.5 -4935.5
@@ -3234,6 +3248,30 @@ point 1956.0 -5564.0 label -text "P6" -scale xl
 
 point 1900.0 -5183.0 label -text "P6" -scale xl
 
+line pit -reverse on
+  1874.0 -5277.5
+  1876.5 -5272.0 1890.5 -5231.5 1888.5 -5217.5
+  smooth off
+endline
+
+line pit
+  1761.5 -5400.0
+  1765.5 -5406.5 1810.0 -5445.0 1825.0 -5451.0
+  smooth off
+endline
+
+line pit
+  1586.5 -5417.0
+  1588.5 -5436.0 1598.5 -5477.5 1600.0 -5478.0
+  smooth off
+endline
+
+line pit
+  1643.5 -5168.5
+  1650.0 -5181.0 1654.0 -5225.0 1646.5 -5244.0
+  smooth off
+endline
+
 line wall
   2058.0 -5272.5
   2051.5 -5270.5 2044.5 -5265.5 2041.0 -5261.5
@@ -3342,6 +3380,12 @@ point 2090.982 -5718.5599999999995 station -name A123
 point 1857.402 -5751.929999999999 station -name A122
 
 point 1940.8519999999999 -5789.49 station -name A121
+
+line pit -reverse on
+  1864.5 -5685.0
+  1876.5 -5675.0 1931.0 -5609.5 1955.0 -5600.5
+  smooth off
+endline
 
 line wall
   883.5 -5652.5
@@ -3652,7 +3696,11 @@ line wall -outline in
   smooth off
 endline
 
-line wall -outline in
+point 1245.5 -5251.0 blocks
+
+point 1233.0 -5237.5 blocks
+
+line wall -subtype invisible -outline in
   1252.0 -5254.0
   1252.5 -5249.0 1241.5 -5221.0 1224.0 -5237.5
   smooth off
@@ -4153,12 +4201,39 @@ endscrap
 
 scrap SP-Nymphe-11 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
+line pit
+  1425.5 -4873.5
+  1429.5 -4881.5 1447.0 -4896.0 1464.0 -4892.5
+  smooth off
+endline
+
+line pit
+  1411.0 -5007.5
+  1425.5 -5014.0 1450.5 -5016.5 1458.5 -5002.5
+  smooth off
+endline
+
 line wall
   1433.5 -4921.5
   1434.5 -4933.0 1434.0 -4949.0 1428.5 -4953.5
+  smooth off
+endline
+
+point 1390.5 -4875.0 label -text "P10" -scale xl
+
+line wall -subtype pit
+endline
+
+line wall -subtype pit
+  1428.5 -4953.5
   1423.0 -4958.0 1407.5 -4970.5 1407.5 -4976.0
   1407.5 -4981.5 1402.5 -4979.0 1404.5 -4985.5
   1406.5 -4992.0 1417.0 -5000.5 1417.0 -5005.0
+  smooth off
+endline
+
+line wall
+  1417.0 -5005.0
   1417.0 -5009.5 1416.5 -5023.0 1412.5 -5033.5
   1408.5 -5044.0 1401.0 -5075.0 1403.0 -5105.0
   1405.0 -5135.0 1412.0 -5137.5 1421.5 -5145.5
@@ -4546,6 +4621,18 @@ line wall
   smooth off
 endline
 
+line pit
+  887.0 -5774.0
+  887.5 -5767.0 879.0 -5726.0 875.0 -5721.5
+  smooth off
+endline
+
+line pit
+  797.0 -5772.0
+  802.5 -5752.0 801.5 -5736.5 800.0 -5734.0
+  smooth off
+endline
+
 line wall -subtype pit
   880.5 -5731.5
   871.5 -5729.5 870.5 -5723.0 856.0 -5726.0
@@ -4762,7 +4849,25 @@ line wall -subtype pit
   smooth off
 endline
 
-point 2327.0 -5996.0 label -text "P9" -scale xl
+line pit -reverse on
+  2262.5 -5840.0
+  2270.5 -5843.5 2288.5 -5861.0 2290.0 -5865.5
+  smooth off
+endline
+
+line pit
+  2246.0 -5800.0
+  2247.5 -5818.5 2250.0 -5833.5 2254.5 -5836.0
+  smooth off
+endline
+
+line pit -reverse on
+  2230.0 -5920.0
+  2233.0 -5906.5 2250.0 -5878.5 2281.0 -5878.5
+  smooth off
+endline
+
+point 2334.5 -5892.5 label -text "P9" -scale xl
 
 point 2195.0 -5902.0 label -text "R5" -scale xl
 
@@ -5032,7 +5137,17 @@ line wall -reverse on
   1465.5 -4874.0 1456.5 -4883.0 1457.5 -4889.0
   1458.5 -4895.0 1466.5 -4919.0 1466.0 -4925.5
   1465.5 -4932.0 1450.5 -4952.5 1450.0 -4961.0
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  1450.0 -4961.0
   1449.5 -4969.5 1455.0 -4995.5 1454.0 -5002.5
+  smooth off
+endline
+
+line wall -reverse on
+  1454.0 -5002.5
   1453.0 -5009.5 1424.5 -5055.0 1424.5 -5060.0
   1424.5 -5065.0 1425.0 -5081.0 1430.5 -5089.0
   1436.0 -5097.0 1458.5 -5106.0 1462.0 -5115.5
@@ -5144,6 +5259,18 @@ point 2356.5 -6323.0 label -text "P17" -scale xl
 point 2418.0 -6303.5 label -text "P9" -scale xl
 
 point 2374.672 -6373.349999999999 station -name A104
+
+line pit
+  2408.5 -6383.0
+  2406.5 -6374.5 2403.5 -6356.5 2383.5 -6358.0
+  smooth off
+endline
+
+line pit
+  2421.0 -6381.5
+  2437.5 -6364.0 2438.5 -6360.5 2438.5 -6351.5
+  smooth off
+endline
 
 line wall
   2482.5 -5755.0
@@ -5615,15 +5742,36 @@ line wall
   smooth off
 endline
 
-point 2050.5 -5187.0 label -text "P20" -scale xl
-
-point 2001.0 -5185.0 label -text "P11" -scale xl
-
-point 2088.0 -5177.0 label -text "P11" -scale xl
+point 2045.5 -5167.5 label -text "P11<br>P20<br>P11" -scale xl
 
 line label -text "Dédale décor" -scale xl
   1825.0 -5043.0
   1842.5 -4986.5 1887.0 -4451.5 2106.5 -4693.5
+  smooth off
+endline
+
+line pit
+  2042.5 -5218.0
+  2043.0 -5226.5 2055.0 -5243.5 2060.5 -5245.5
+  smooth off
+endline
+
+line pit
+  2080.5 -5239.0
+  2082.0 -5250.0 2075.5 -5267.0 2087.5 -5267.0
+  2099.5 -5267.0 2118.0 -5267.0 2119.0 -5248.0
+  smooth off
+endline
+
+line pit -reverse on
+  2082.5 -5311.5
+  2083.5 -5304.5 2086.0 -5273.0 2081.0 -5269.0
+  smooth off
+endline
+
+line pit -reverse on
+  2043.5 -5296.0
+  2054.0 -5284.0 2056.5 -5269.5 2056.5 -5269.5
   smooth off
 endline
 
@@ -6277,7 +6425,7 @@ line pit
   smooth off
 endline
 
-line label
+line pit
   3558.5 -5031.0
   3550.0 -5034.0 3527.0 -5034.5 3520.5 -5051.5
   3514.0 -5068.5 3546.5 -5082.0 3551.5 -5083.0
@@ -6373,6 +6521,8 @@ line pit -reverse on
   2895.5 -5210.0 2939.5 -5198.5 2947.0 -5198.0
   smooth off
 endline
+
+point 2760.0 -5149.0 entrance -orientation 67.8 -scale xl
 
 line wall
   2899.5 -5035.5

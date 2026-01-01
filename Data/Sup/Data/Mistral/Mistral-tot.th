@@ -2,10 +2,10 @@ survey Mistral
 
 
 
-input Data/Mistral-plan.th2
 
 input Data/Mistral.th 
 
+input Data/Mistral-plan.th2
 
 
 input Mistral-maps.th

@@ -8,13 +8,14 @@ survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0"
 		cs EPSG:2154 
 		fix 1_0  903140.182	6439564.411	1670.556
 		station 1_0 "Brise de Coeur - CAF-232" entrance
+		 
 
-		date 2014
-			team "SGCAF"
-			team "Kori Ditmeyer"
-			team "Cédric Astier"
-			team "Clément Garnier"
-			team "Pierre Metzger" 
+		date 2015.08
+		team "SGCAF"
+		team "Kori Ditmeyer"
+		team "Cédric Astier"
+		team "Clément Garnier"
+		team "Pierre Metzger" 
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
 
@@ -49,7 +50,7 @@ survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0"
 
 
 	centerline 
-		date 2014
+		date 2015.08
 			team "SGCAF"
 			team "Kori Ditmeyer"
 			team "Cédric Astier"
@@ -74,7 +75,7 @@ survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0"
 
 
 	centerline 
-		date 2015
+		date 2015.08
 			team "SGCAF"
 			team "Kori Ditmeyer"
 			team "Cédric Astier"
@@ -96,7 +97,7 @@ survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0"
 
 
 	centerline 
-		date 2018
+		date 2018.07
 			team "SGCAF"
 			team "Kori Ditmeyer"
 			team "Cédric Astier"

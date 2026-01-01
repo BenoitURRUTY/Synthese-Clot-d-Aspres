@@ -306,7 +306,7 @@ export map -proj [elevation 17] -layout xviexport -o Data/Mistral-coupe_elevatio
 #	select MP-Mistral-plan-tot@Mistral
 #  select MC-Mistral-coupe-tot@Mistral
 	 
-#export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Mistral-coupe_elevation.pdf 
+export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Mistral-coupe_elevation.pdf 
 export map -projection extended -layout my_layout-coupe -o Outputs/Mistral-coupe.pdf 
 export map -o Outputs/Mistral-plan.pdf -layout my_layout
  

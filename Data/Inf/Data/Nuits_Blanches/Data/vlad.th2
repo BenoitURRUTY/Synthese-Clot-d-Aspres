@@ -190,7 +190,21 @@ line wall -id mur_d
   smooth off
 endline
 
-line pit -close on
+area u:galerie
+  l96-201-261
+endarea
+
+line border -id l96-201-261 -close on
+  192.75 273.5
+  190.5 275.25 189.75 270.5 189.75 268.0
+  189.75 265.5 195.6 271.29 192.75 273.5
+endline
+
+area u:galerie
+  l30-140-275
+endarea
+
+line pit -id l30-140-275 -close on
   142.75 279.0
   139.25 279.0
   137.0 279.75

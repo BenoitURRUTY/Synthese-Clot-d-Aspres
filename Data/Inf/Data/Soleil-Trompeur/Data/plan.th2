@@ -1,8 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -141.67999999999984 94.49199999999996 4068.2156000000004 2663.1512
+##XTHERION## xth_me_area_adjust -141.67999999999984 94.49199999999996 4068.2056000000002 2663.1512
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {-13.679999999999836 1 1.0} {2535.1512 {}} {../../../../../../../../../../Downloads/Caf 225 Soleil Trompeur prnPlani1000.jpg} 0 {}
-##XTHERION## xth_me_image_insert {3643.17 1 1.0} {533.684 CAF-225} Soleil-Trompeur-map.xvi 0 {}
+##XTHERION## xth_me_image_insert {3679.17 1 1.0} {625.684 CAF-225} Soleil-Trompeur-map.xvi 0 {}
 
 
 
@@ -229,6 +229,7 @@ point 2718.0 1635.0 breakdown-choke -orientation 0.0
 line pit
   1382.0 1563.0
   1382.0 1563.0 1361.0 1449.0 1340.0 1439.0
+  smooth off
 endline
 
 point 978.0 1348.0 label -text "R3"
@@ -461,6 +462,7 @@ endline
 line wall -subtype invisible
   3636.5 951.5
   3636.5 951.5 3656.0 1012.0 3621.0 1022.0
+  smooth off
 endline
 
 line wall -subtype presumed
@@ -641,6 +643,7 @@ point 3706.0 240.0 label -text "<bf>CAF-225" -scale xl
 line wall -subtype invisible
   3623.0 485.5
   3623.0 485.5 3671.0 531.0 3664.0 566.0
+  smooth off
 endline
 
 line wall

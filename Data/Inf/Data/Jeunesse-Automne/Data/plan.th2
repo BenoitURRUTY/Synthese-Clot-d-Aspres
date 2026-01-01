@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 2150.3 4144 5437 8267.9428
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust 2150.3 4150.75 5434.0 8392.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {2307.55 1 1.0} {8086.942800000001 {}} Jeunesse_1-300.png 0 {}
 ##XTHERION## xth_me_image_insert {2282.0 1 1.0} {8136.75 {}} Jeunesse_rot2.png 0 {}
 ##XTHERION## xth_me_image_insert {2278.3 1 1.0} {8139.942800000001 {}} ../../../../../../Jeunesse_rot2.jpg 0 {}
@@ -976,6 +976,16 @@ endline
 point 2860.0 7224.5 label -text "Voûte mouillante temp."
 
 point 3174.5 7250.5 label -text "Galerie Pérette"
+
+line label -text "<center>Jonction avec NB dans le P25<br>Erreur topo importante" -scale xl
+  3874.0 7589.0
+  4172.0 8077.0
+endline
+
+line arrow
+  3580.5 7327.5
+  4250.0 8380.0
+endline
 
 line wall
   3808.0 7262.5

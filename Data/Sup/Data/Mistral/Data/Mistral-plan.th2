@@ -1,12 +1,14 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -236.0 4595.892400000001 4078.0 16548.9124
-##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {18.5 1 1.0} {12728.3924 {}} {../Source/Fichier 2.jpg} 0 {}
-##XTHERION## xth_me_image_insert {1232.63 1 1.0} {11347.572400000001 Mistral} Mistral-map.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {18.5 1 1.0} {12726.3924 {}} {../Source/Fichier 2.jpg} 0 {}
+##XTHERION## xth_me_image_insert {1201.63 1 1.0} {11360.572400000001 Mistral} Mistral-map.xvi 0 {}
 
 
 
 scrap SP-Mistral-1 -projection plan -station-names "" "@Mistral" -scale [-236.0 4595.892400000001 4078.0 4595.892400000001 0.0 0.0 109.5756 0.0 m]
+
+point 1271.0 11144.5 label -text "P19"
 
 point 1357.0 11162.5 entrance -orientation 313.5 -scale xl
 
@@ -175,7 +177,7 @@ line wall
   smooth off
 endline
 
-point 1240.0 12100.5 label -text "Méandre Amont"
+point 1240.0 12100.5 label -text "Méandre Amont" -scale xl
 
 line pit
   1280.0 11464.5
@@ -238,6 +240,11 @@ line pit
   1065.0 11518.0
   1063.0 11506.5 1055.0 11440.5 1084.0 11424.0
   smooth off
+endline
+
+line pit
+  895.0 11347.0
+  925.0 11321.0 961.0 11277.0 974.0 11276.0
 endline
 
 line wall
@@ -555,6 +562,11 @@ line wall
   1417.0 11317.0 1385.0 11363.5 1380.5 11371.5
   1376.0 11379.5 1364.5 11399.0 1360.5 11406.0
   smooth off
+endline
+
+line label -text "Méandre des Ardéchois" -scale xl
+  1494.0 10974.0
+  1610.0 10922.0 2067.0 10539.0 2083.0 10496.0
 endline
 
 line wall
