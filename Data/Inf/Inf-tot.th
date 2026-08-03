@@ -24,6 +24,6 @@ input Data/Antre_glace/Antre-tot.th
 
 input inferieur-maps.th
 
-# equate 352@reseau_classique.nuits_blanches 1_143232@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne
+equate 352@reseau_classique.nuits_blanches 1_143232@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne
 endsurvey
 
