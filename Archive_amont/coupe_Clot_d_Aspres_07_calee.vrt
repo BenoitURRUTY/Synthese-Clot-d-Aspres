@@ -1,0 +1,70 @@
+<VRTDataset rasterXSize="8682" rasterYSize="2275">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["RGF93 v1 / Lambert-93",GEOGCS["RGF93 v1",DATUM["Reseau_Geodesique_Francais_1993_v1",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6171"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4171"]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["latitude_of_origin",46.5],PARAMETER["central_meridian",3],PARAMETER["standard_parallel_1",49],PARAMETER["standard_parallel_2",44],PARAMETER["false_easting",700000],PARAMETER["false_northing",6600000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","2154"]]</SRS>
+  <GeoTransform> -3.4181350753583814e+02,  3.5396074056532667e-01,  0.0000000000000000e+00, -9.1082511523913199e+03,  0.0000000000000000e+00, -3.5396074056532667e-01</GeoTransform>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="Byte" band="1" blockXSize="8682">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0</MDI>
+      <MDI key="STATISTICS_MEAN">0</MDI>
+      <MDI key="STATISTICS_STDDEV">0</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">Clot d_Aspres_07.png</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8682" RasterYSize="2275" DataType="Byte" BlockXSize="8682" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="8682" ySize="2275" />
+      <DstRect xOff="0" yOff="0" xSize="8682" ySize="2275" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2" blockXSize="8682">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0</MDI>
+      <MDI key="STATISTICS_MEAN">0</MDI>
+      <MDI key="STATISTICS_STDDEV">0</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">Clot d_Aspres_07.png</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8682" RasterYSize="2275" DataType="Byte" BlockXSize="8682" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="8682" ySize="2275" />
+      <DstRect xOff="0" yOff="0" xSize="8682" ySize="2275" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3" blockXSize="8682">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0</MDI>
+      <MDI key="STATISTICS_MEAN">0</MDI>
+      <MDI key="STATISTICS_STDDEV">0</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">Clot d_Aspres_07.png</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8682" RasterYSize="2275" DataType="Byte" BlockXSize="8682" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="8682" ySize="2275" />
+      <DstRect xOff="0" yOff="0" xSize="8682" ySize="2275" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4" blockXSize="8682">
+    <ColorInterp>Alpha</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">Clot d_Aspres_07.png</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8682" ySize="2275" />
+      <DstRect xOff="0" yOff="0" xSize="8682" ySize="2275" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>

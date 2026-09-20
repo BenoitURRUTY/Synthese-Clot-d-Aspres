@@ -2,7 +2,7 @@ survey castor-entree
   centerline
     date 2024.07.06
       team "Alexis Delanoë" instruments # distoX du SGCAF
-      team "Jef Gaucher" notes 
+      team "Jean-François Gaucher" notes 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

@@ -1,0 +1,42 @@
+encoding utf-8
+# Généré par SpeleoTools — numérisation de topographie ancienne
+# Cavité : Clot d'Aspres
+# Date du levé d'origine : 1989
+# Auteurs du levé d'origine : inconnus
+# Documents sources : non renseignés
+# Type de donnée : squelette reconstruit à partir de documents graphiques (spéléométrie dégradée)
+# Numérisation : SpeleoTools (QGIS), 2026-09-20
+# SCR : EPSG:2154
+# Rattachement : entree X=0.00 Y=0.00 Z=0.00
+# Calage plan : Clot d_Aspres_08.png — entrée + échelle + nord ; 0.3528 m/px ; rotation -88.63° ; azimut flèche nord 0.00°
+# Calage coupe : Clot d_Aspres_07.png — coupe développée ; 0.3540 m/px ; redressement 0.00° ; réf. X=0.00 Z=0.00
+# Origine des altitudes : coupe=19
+survey Clot_d_Aspres -title "Clot d'Aspres"
+
+  centreline
+    date 1989
+    cs EPSG:2154
+    fix entree -0.737 -0.564 0.941
+    data cartesian from to easting northing altitude
+    # branche 1
+    entree     B1_1          -7.373     1.509    -1.857   # z: coupe → coupe
+    B1_1       B1_2         -10.043     0.929    -5.385   # z: coupe → coupe
+    B1_2       B1_3         -18.640     1.567    -9.988   # z: coupe → coupe
+    B1_3       B1_4          -8.853     4.695     1.664   # z: coupe → coupe
+    B1_4       B1_5          -7.780     5.366    -4.010   # z: coupe → coupe
+    B1_5       B1_6         -14.621    -5.768    -7.429   # z: coupe → coupe
+    B1_6       B1_7           0.134    -5.366    -1.874   # z: coupe → coupe
+    B1_7       B1_8         -12.635     2.399    -5.445   # z: coupe → coupe
+    B1_8       B1_9          -4.894    -1.631    -0.367   # z: coupe → coupe
+    B1_9       B1_10        -11.012    -1.767    -1.514   # z: coupe → coupe
+    B1_10      B1_11         -6.661    -1.359     0.007   # z: coupe → coupe
+    B1_11      B1_12        -12.915    -7.885    -2.560   # z: coupe → coupe
+    B1_12      B1_13         -4.894    -1.767    -2.437   # z: coupe → coupe
+    B1_13      B1_14         -5.574     1.767    -0.577   # z: coupe → coupe
+    B1_14      B1_15         -8.443    -6.300     0.677   # z: coupe → coupe
+    B1_15      B1_16         -2.762    -4.758     1.104   # z: coupe → coupe
+    B1_16      B1_17         -3.837    -0.921    -1.656   # z: coupe → coupe
+    B1_17      fin           -0.153     0.384    -0.303   # z: coupe → coupe
+  endcentreline
+
+endsurvey

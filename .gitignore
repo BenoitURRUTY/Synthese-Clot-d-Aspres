@@ -27,3 +27,9 @@ GIS/Big_file/
 *.3d
 *.sql
 *.ai
+# état de l éditeur xtherion
+.xtherion.dat
+
+# fichiers temporaires Therion
+*.thlog
+thlog.log

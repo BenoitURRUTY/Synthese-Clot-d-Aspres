@@ -4,8 +4,8 @@ survey 2-soeurs -title "2-soeurs"
 
   centerline
     date 2024.04.15 
-    team 'Benoit\Urruty(GUCEM)'
-    team 'Océane\Terral(GUCEM)'
+    team "Benoît Urruty"
+    team "Océane Terral"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

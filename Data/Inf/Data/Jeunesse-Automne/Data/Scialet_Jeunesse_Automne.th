@@ -12,7 +12,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
 		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
@@ -45,7 +52,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Inc degrees 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
 		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
@@ -66,7 +80,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
 		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
@@ -93,7 +114,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -122,7 +150,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -154,7 +189,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -195,7 +237,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -246,7 +295,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -279,7 +335,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -307,7 +370,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -360,7 +430,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -383,7 +460,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -413,7 +497,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -437,7 +528,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -463,7 +561,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -508,7 +613,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 
@@ -538,7 +650,14 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
-			team "SGCAF" 
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Cédric/Astier David"
+			team "Jeffery Wade"
+			team "Martin Gerbaux"
+			team "Jean-Paul Héreil"
+			team "Guy Masson"
+			team "Didier Rigal"
+			team "Clément Garnier"
 		#explo-date YYYY.MM.DD 
 			 
 			explo-team "SGCAF" 

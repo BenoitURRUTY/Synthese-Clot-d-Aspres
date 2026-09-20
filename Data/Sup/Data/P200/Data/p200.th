@@ -1,6 +1,6 @@
 # 2024.10.06 created by TopoDroid v 6.2.44
 
-survey P200 -title "P200"
+survey P200 -title "P200" -entrance 0
     
 
   centerline
@@ -10,16 +10,16 @@ survey P200 -title "P200"
     fix 0 903073.47 6437033.75 2042
 
     date 2018.07.22 
-    team ced 
-    team bab 
-    explo-team Alain
-    explo-team  Loïc
-    explo-team  sidonie
-    explo-team  ced 
-    explo-team bicoullou
-    explo-team  alex
-    explo-team bab  
-    explo-team Tristan 
+    team "Cédric Clary"
+    team "Barnabé Fourgous"
+    explo-team "Alain Maurice"
+    explo-team  "Loïc Maurice"
+    explo-team  "Sidonie Maurice"
+    explo-team  "Cédric Clary"
+    explo-team "Olivier Deschamps"
+    explo-team  "Alex Faucheux"
+    explo-team "Barnabé Fourgous"
+    explo-team "Tristan Godet"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
@@ -318,7 +318,13 @@ survey P200 -title "P200"
     A9 . 20.97 88.6 -16.1
     extend right
     A9 0 26.40 81.6 -39.9
+    # Entrées déclarées : sans ces drapeaux, le P200 n'apparaît pas dans la liste
+    # des entrées du réseau, alors que A1 porte le point le plus haut de la synthèse.
+    station 0 "P200" entrance
+    station A1 "P200, entrée supérieure" entrance
+
   endcenterline
+
 
 
 endsurvey

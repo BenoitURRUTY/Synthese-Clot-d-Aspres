@@ -4,7 +4,7 @@ survey grosse_galerie -title "grosse galerie"
 centerline
   declination -1.67 grad #
   date 2007.2.24
-  team "Jean-Francois Gaucher"
+  team "Jean-François Gaucher"
   team "Jean Héraud"
   team "Sophie Brault"
 
@@ -112,7 +112,7 @@ endcenterline
 centerline
   declination 1.67 grad # (-0.1 + 2.35 de convergence N Lambert III)
   date 2007.3.17
-  team "Jean-Francois Gaucher"
+  team "Jean-François Gaucher"
   team "Manu Tessanne"
   team "Martin Gerbaux"
 

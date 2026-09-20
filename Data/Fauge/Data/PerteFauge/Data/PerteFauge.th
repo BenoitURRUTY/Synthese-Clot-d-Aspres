@@ -24,7 +24,7 @@ survey PerteFauge -title "Perte de la Fauge"
 		#data topofil from to length compass clino left right up down
 		
     date 2025.08.09 
-    team "0ceane Terral" 
+    team "Océane Terral" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

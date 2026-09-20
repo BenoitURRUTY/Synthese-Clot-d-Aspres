@@ -5,8 +5,8 @@ survey 2_soeursA -title "2 soeurs" -entrance 1
   centerline
     # date 2024.04.13 
     date 2023.04.13 
-    team 'Benoit\Urruty(GUCEM)'
-    team 'Océane\Terral(GUCEM)' 
+    team "Benoît Urruty"
+    team "Océane Terral" 
     units length meters
     cs EPSG:2154
     fix 0 903337.949 6437232.352 1844.372

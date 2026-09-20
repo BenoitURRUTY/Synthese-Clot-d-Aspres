@@ -181,7 +181,7 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 	date 2012.8.14
 		team "Clément Garnier"
 		team "Guy Masson"
-		team "Cédric Astier"
+		team "Cédric/Astier David"
 
 	data normal from to length backcompass backclino left right up down
 
@@ -310,7 +310,7 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 			team "Guy Masson"
 			team "Jean Héraud"
 			team "Jean-François Gaucher"
-			team "Cédric Astier"
+			team "Cédric/Astier David"
 			team "Timothée Chauviré"	 
 		#explo-date YYYY.MM.DD 
 

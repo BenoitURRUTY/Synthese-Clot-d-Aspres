@@ -1,0 +1,58 @@
+<VRTDataset rasterXSize="4284" rasterYSize="2271">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["RGF93 v1 / Lambert-93",GEOGCS["RGF93 v1",DATUM["Reseau_Geodesique_Francais_1993_v1",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6171"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4171"]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["latitude_of_origin",46.5],PARAMETER["central_meridian",3],PARAMETER["standard_parallel_1",49],PARAMETER["standard_parallel_2",44],PARAMETER["false_easting",700000],PARAMETER["false_northing",6600000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","2154"]]</SRS>
+  <GeoTransform>  1.5475809517617355e+02,  8.4251780995376752e-03, -3.5265388330922093e-01,  1.3094079927472783e+03, -3.5265388330922093e-01, -8.4251780995376752e-03</GeoTransform>
+  <Metadata>
+    <MDI key="XML_com.adobe.xmp">&lt;x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 6.0.0"&gt;
+   &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:tiff="http://ns.adobe.com/tiff/1.0/"&gt;
+         &lt;tiff:Orientation&gt;1&lt;/tiff:Orientation&gt;
+      &lt;/rdf:Description&gt;
+   &lt;/rdf:RDF&gt;
+&lt;/x:xmpmeta&gt;
+</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="Byte" band="1" blockXSize="4284" blockYSize="1">
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">Clot d_Aspres_08.png</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4284" RasterYSize="2271" DataType="Byte" BlockXSize="4284" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4284" ySize="2271" />
+      <DstRect xOff="0" yOff="0" xSize="4284" ySize="2271" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2" blockXSize="4284" blockYSize="1">
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">Clot d_Aspres_08.png</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4284" RasterYSize="2271" DataType="Byte" BlockXSize="4284" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4284" ySize="2271" />
+      <DstRect xOff="0" yOff="0" xSize="4284" ySize="2271" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3" blockXSize="4284" blockYSize="1">
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">Clot d_Aspres_08.png</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4284" RasterYSize="2271" DataType="Byte" BlockXSize="4284" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4284" ySize="2271" />
+      <DstRect xOff="0" yOff="0" xSize="4284" ySize="2271" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4" blockXSize="4284" blockYSize="1">
+    <ColorInterp>Alpha</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">Clot d_Aspres_08.png</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4284" RasterYSize="2271" DataType="Byte" BlockXSize="4284" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4284" ySize="2271" />
+      <DstRect xOff="0" yOff="0" xSize="4284" ySize="2271" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>

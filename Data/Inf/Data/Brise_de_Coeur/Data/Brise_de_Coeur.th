@@ -11,9 +11,13 @@ survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0"
 		 
 
 		date 2015.08
-		team "SGCAF"
-		team "Kori Ditmeyer"
-		team "Cédric Astier"
+		# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+		team "Kori/Ditmeyer Moreau"
+		team "Cédric/Astier David"
+		team "Pierre Metzger"
+		team "Clément Garnier"
+		team "Kori/Ditmeyer Moreau"
+		team "Cédric/Astier David"
 		team "Clément Garnier"
 		team "Pierre Metzger" 
 		#explo-date YYYY.MM.DD 
@@ -51,9 +55,13 @@ survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0"
 
 	centerline 
 		date 2015.08
-			team "SGCAF"
-			team "Kori Ditmeyer"
-			team "Cédric Astier"
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Kori/Ditmeyer Moreau"
+			team "Cédric/Astier David"
+			team "Pierre Metzger"
+			team "Clément Garnier"
+			team "Kori/Ditmeyer Moreau"
+			team "Cédric/Astier David"
 			team "Clément Garnier"
 			team "Pierre Metzger" 
 		#explo-date YYYY.MM.DD 
@@ -76,9 +84,13 @@ survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0"
 
 	centerline 
 		date 2015.08
-			team "SGCAF"
-			team "Kori Ditmeyer"
-			team "Cédric Astier"
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Kori/Ditmeyer Moreau"
+			team "Cédric/Astier David"
+			team "Pierre Metzger"
+			team "Clément Garnier"
+			team "Kori/Ditmeyer Moreau"
+			team "Cédric/Astier David"
 			team "Clément Garnier"
 			team "Pierre Metzger" 
 		#explo-date YYYY.MM.DD 
@@ -98,9 +110,13 @@ survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0"
 
 	centerline 
 		date 2018.07
-			team "SGCAF"
-			team "Kori Ditmeyer"
-			team "Cédric Astier"
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Kori/Ditmeyer Moreau"
+			team "Cédric/Astier David"
+			team "Pierre Metzger"
+			team "Clément Garnier"
+			team "Kori/Ditmeyer Moreau"
+			team "Cédric/Astier David"
 			team "Clément Garnier"
 			team "Pierre Metzger" 
 		#explo-date YYYY.MM.DD 

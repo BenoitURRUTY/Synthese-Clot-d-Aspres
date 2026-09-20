@@ -1,0 +1,11 @@
+Cavité : Clot d'Aspres
+Date du levé d'origine : 1989
+Auteurs du levé d'origine : inconnus
+Documents sources : non renseignés
+Type de donnée : squelette reconstruit à partir de documents graphiques (spéléométrie dégradée)
+Numérisation : SpeleoTools (QGIS), 2026-09-20
+SCR : EPSG:2154
+Rattachement : entree X=0.00 Y=0.00 Z=0.00
+Calage plan : Clot d_Aspres_08.png — entrée + échelle + nord ; 0.3528 m/px ; rotation -88.63° ; azimut flèche nord 0.00°
+Calage coupe : Clot d_Aspres_07.png — coupe développée ; 0.3540 m/px ; redressement 0.00° ; réf. X=0.00 Z=0.00
+Origine des altitudes : coupe=19

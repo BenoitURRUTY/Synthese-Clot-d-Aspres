@@ -8,8 +8,9 @@ survey Scialet_de_la_Malleole -title "Scialet de la Malleole [YB 03-31]" -entran
 		station 1_0 "Scialet de la Malleole [YB 03-31]" entrance
 
 		date 2014.02 
-			team "SGCAF" 
-
+			# Équipe connue à l'échelle de la cavité, la composition par séance n'étant pas documentée.
+			team "Jean Héraud"
+			team "Florian Quiec"
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
 

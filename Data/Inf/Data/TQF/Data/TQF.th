@@ -10,9 +10,8 @@ fix 16 903145.11 6439970.80	1586
 station 16 "Scialet TQF" entrance
 
 date 2011.07.7
-    team "Cécile S."
-    team "Gilles"
-
+    team "Cécile Souleau"
+    team "Gilles Palué"
 units length meters
 units compass grads 
 units clino degrees
