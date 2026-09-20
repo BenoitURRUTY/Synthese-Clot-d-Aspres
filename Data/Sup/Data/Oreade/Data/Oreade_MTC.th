@@ -6,7 +6,7 @@ centerline
 date 1989
 
 cs EPSG:2154
-# fix Oreade	903274.27 6437479.08 2017 200 10 50
+fix Oreade	903274.27 6437479.08 2017 
 station Oreade "Oreade"
 
 units length feet

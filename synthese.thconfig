@@ -332,3 +332,5 @@ export map -proj plan -fmt kml -o Outputs/Synthese.kml -layout my_layout
 export model -fmt kml -o Outputs/Synthese-model.kml
 
 export cave-list -output ../Output/cave-list.csv
+
+export database -o synthese.sql
