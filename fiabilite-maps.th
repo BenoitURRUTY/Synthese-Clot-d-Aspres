@@ -1,0 +1,88 @@
+encoding utf-8
+
+###############################################################################
+#  Figure 4 — regroupement des maps par classe de fiabilité
+#
+#  Ce fichier ne modifie rien au projet : il crée de nouvelles maps qui
+#  réutilisent celles déjà définies cavité par cavité. Les classes et leur
+#  contenu reprennent l'annexe 2 de l'article.
+#
+#  Les couleurs ne sont PAS portées ici : l'option -color d'une map n'existe
+#  pas en Therion 6.2.0. C'est le bloc lookup de fiabilite.thconfig qui les
+#  attribue, et il fonctionne depuis la 5.4.4.
+#
+#  Il se place à côté de synthese.th et se charge depuis fiabilite.thconfig,
+#  d'où les chemins complets (…@Cavite.niveau.synthese).
+###############################################################################
+
+
+map MF-tres-elevee -title "Très élevée"
+    MP-castor@Castor.inferieur.synthese
+    MP-FJSP08-plan-tot@FJSP08.inferieur.synthese
+    MP-PerteFauge-plan-tot@PerteFauge.fauge.synthese
+    MP-ScialetFauge1-plan-tot@ScialetFauge1.fauge.synthese
+endmap
+
+
+map MF-elevee -title "Élevée"
+    MP-Amadjide-plan-tot@Amadjide.inferieur.synthese
+    MP-Apocalypso-plan-tot@Apocalypso.inferieur.synthese
+    MP-Brise_de_Coeur-plan-tot@Brise_de_Coeur.inferieur.synthese
+    MP-CAF132@CAF-132.inferieur.synthese
+    MP-Scialet_Candy-plan-tot@Scialet_Candy.inferieur.synthese
+    MP-Femmes-Fortes-plan-tot@Femmes-Fortes.inferieur.synthese
+    MP-Grotte_du_Clot_d_Aspres-plan-tot@Grotte_du_Clot_Aspres.inferieur.synthese
+    MP-Scialet_de_la_Malleole-plan-tot@Scialet_de_la_Malleole.inferieur.synthese
+    MP-Soleil-Trompeur-plan-tot@Soleil-Trompeur.inferieur.synthese
+    MP-TQF-plan-tot@TQF.inferieur.synthese
+    MP-Grotte_du_Serpent-Terre-plan-tot@Grotte_du_Serpent-Terre.fauge.synthese
+    MP-P200@P200.superieur.synthese
+endmap
+
+
+map MF-moyenne -title "Moyenne"
+    allcave@2-Soeurs.superieur.synthese
+    MP-Principal-tot@Blizzard.blizzard.median.synthese
+    MP-RCP-tot@riviere_casse_pieds.blizzard.median.synthese
+    BM-plan@brumes-tot.median.synthese
+    MP-Achard-1@pre_achard-tot.median.synthese
+    MP-Silence@Silence.median.synthese
+    MP_nuits_blanches@nuits_blanches.inferieur.synthese
+    MP-Mistral-tot@Mistral.superieur.synthese
+    MP-Clos@Caverne_des_clos.superieur.synthese
+endmap
+
+
+map MF-moyenne-faible -title "Moyenne à faible"
+    MP-Antre-plan-tot@Antre.inferieur.synthese
+    MP-Bagnards@Bagnards.superieur.synthese
+    MP-Bourrasque-tot@Bourrasque.bourrasque.superieur.synthese
+    MP-collecteur_bourrasque-plan-tot@collecteur_bourrasque.bourrasque.superieur.synthese
+    MP-Nymphe-tot@Nymphe.superieur.synthese
+    MP-Oreade@Oreade.superieur.synthese
+endmap
+
+
+map MF-faible -title "Faible"
+    MP-Scialet_Jeunesse_d'Automne-plan-tot@Scialet_Jeunesse_Automne.inferieur.synthese
+endmap
+
+
+map MF-raccord -title "Raccordement"
+    MP-Jonction@synthese
+endmap
+
+
+###############################################################################
+#  La map d'ensemble. L'ordre détermine la superposition : les classes les
+#  moins fiables sont placées en dernier pour rester visibles.
+###############################################################################
+
+map MF-fiabilite -title "Fiabilité estimée des données"
+    MF-tres-elevee
+    MF-elevee
+    MF-moyenne
+    MF-moyenne-faible
+    MF-faible
+    MF-raccord
+endmap

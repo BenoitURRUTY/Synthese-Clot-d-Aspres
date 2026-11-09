@@ -10,6 +10,7 @@ input Data/Amadjide/Amadjide-tot.th
 input Data/Apocalypso/Apocalypso-tot.th
 input Data/Brise_de_Coeur/Brise_de_Coeur-tot.th
 input Data/CAF-132/CAF-132_tot.th
+input Data/CAF-131/CAF-131_tot.th
 input Data/Candy/Scialet_Candy-tot.th
 input Data/Castor/castor-tot.th
 input Data/Femmes-Fortes/Femmes-Fortes-tot.th
@@ -24,6 +25,6 @@ input Data/Antre_glace/Antre-tot.th
 
 input inferieur-maps.th
 
-equate 352@reseau_classique.nuits_blanches 1_143232@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne
+# equate 352@reseau_classique.nuits_blanches 1_143232@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne
 endsurvey
 

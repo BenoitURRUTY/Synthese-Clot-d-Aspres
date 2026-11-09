@@ -1,0 +1,160 @@
+encoding utf-8
+
+###############################################################################
+#  Figure 4 — plan de synthèse coloré par fiabilité des données
+#
+#  Fichier autonome : il ne modifie ni synthese.th, ni synthese.thconfig,
+#  ni config.thc. Le placer à la racine du projet, à côté de synthese.thconfig,
+#  avec fiabilite-maps.th, puis lancer :
+#
+#      therion fiabilite.thconfig
+#
+#  Produit Outputs/Figure4-fiabilite.pdf
+###############################################################################
+
+source synthese.th
+source fiabilite-maps.th
+
+input config.thc
+
+
+###############################################################################
+#  La table de correspondance. Le premier mot de chaque ligne est
+#  l'identifiant de la map, suivi de sa couleur puis du texte de légende.
+#  C'est elle qui pilote à la fois les teintes et la légende des classes.
+###############################################################################
+
+lookup map -title "Fiabilité estimée des données"
+    MF-tres-elevee                                                 [10 45 25]  "Très élevée — levé réalisé pour le projet, données brutes disponibles"
+    MP-ScialetFauge1-plan-tot@ScialetFauge1.fauge.synthese         [10 45 25]
+    MP-PerteFauge-plan-tot@PerteFauge.fauge.synthese               [10 45 25]
+    MP-FJSP08-plan-tot@FJSP08.inferieur.synthese                   [10 45 25]
+    MP-castor@Castor.inferieur.synthese                            [10 45 25]
+    MP-lames-fond@Castor.inferieur.synthese                        [10 45 25]
+    MP-lames-milieu@Castor.inferieur.synthese                      [10 45 25]
+    MP-lames@Castor.inferieur.synthese                             [10 45 25]
+    MP-castor-alcove-et-dessous@Castor.inferieur.synthese          [10 45 25]
+    MP-castor-sous-alcove-decale@Castor.inferieur.synthese         [10 45 25]
+    MP-castor-fond-fosse@Castor.inferieur.synthese                 [10 45 25]
+    MP-castor-sous-alcove@Castor.inferieur.synthese                [10 45 25]
+    MP-castor-alcove@Castor.inferieur.synthese                     [10 45 25]
+    MP-castor-entree@Castor.inferieur.synthese                     [10 45 25]
+    allcave@2-Soeurs.superieur.synthese                            [95 78 20]
+    MP-2-Soeurs-plan-tot@2-Soeurs.superieur.synthese               [95 78 20]
+    MP-Grenoblois@2-Soeurs.superieur.synthese                      [95 78 20]
+    MF-elevee                                                      [45 75 35]  "Élevée — fichier numérique d’origine recalculable"
+    MP-P200@P200.superieur.synthese                                [45 75 35]
+    MP-Grotte_du_Serpent-Terre-plan-tot@Grotte_du_Serpent-Terre.fauge.synthese [45 75 35]
+    MP-TQF-plan-tot@TQF.inferieur.synthese                         [45 75 35]
+    MP-Soleil-Trompeur-plan-tot@Soleil-Trompeur.inferieur.synthese [45 75 35]
+    MP-Scialet_de_la_Malleole-plan-tot@Scialet_de_la_Malleole.inferieur.synthese [45 75 35]
+    MP-Grotte_du_Clot_d_Aspres-plan-tot@Grotte_du_Clot_Aspres.inferieur.synthese [45 75 35]
+    MP-Femmes-Fortes-plan-tot@Femmes-Fortes.inferieur.synthese     [45 75 35]
+    MP-Scialet_Candy-plan-tot@Scialet_Candy.inferieur.synthese     [45 75 35]
+    MP-CAF132@CAF-132.inferieur.synthese                           [45 75 35]
+    MP-Brise_de_Coeur-plan-tot@Brise_de_Coeur.inferieur.synthese   [45 75 35]
+    MP-Apocalypso-plan-tot@Apocalypso.inferieur.synthese           [45 75 35]
+    MP-Amadjide-plan-tot@Amadjide.inferieur.synthese               [45 75 35]
+    MF-moyenne                                                     [95 78 20]  "Moyenne — squelette reconstruit, ou fichier sans données brutes"
+    MP-Clos@Caverne_des_clos.superieur.synthese                    [95 78 20]
+    MP-Mistral-tot@Mistral.superieur.synthese                      [95 78 20]
+    MP_nuits_blanches@nuits_blanches.inferieur.synthese            [95 78 20]
+    MP-Silence@Silence.median.synthese                             [95 78 20]
+    MP-Achard-1@pre_achard-tot.median.synthese                     [95 78 20]
+    BM-plan@brumes-tot.median.synthese                             [95 78 20]
+    MP-RCP-tot@riviere_casse_pieds.blizzard.median.synthese        [95 78 20]
+    MP-Principal-tot@Blizzard.blizzard.median.synthese             [95 78 20]
+    MF-moyenne-faible                                              [95 55 15]  "Moyenne à faible — reconstruction sur document publié"
+    MP-Oreade@Oreade.superieur.synthese                            [95 55 15]
+    MP-Nymphe-tot@Nymphe.superieur.synthese                        [95 55 15]
+    MP-collecteur_bourrasque-plan-tot@collecteur_bourrasque.bourrasque.superieur.synthese [95 55 15]
+    MP-Bourrasque-tot@Bourrasque.bourrasque.superieur.synthese     [95 55 15]
+    MP-Bagnards@Bagnards.superieur.synthese                        [95 55 15]
+    MP-Antre-plan-tot@Antre.inferieur.synthese                     [95 55 15]
+    MF-faible                                                      [85 20 15]  "Faible — incohérences géométriques avérées"
+    MP-Scialet_Jeunesse_d'Automne-plan-tot@Scialet_Jeunesse_Automne.inferieur.synthese [85 20 15]
+    MF-raccord                                                     [60 60 60]  "Raccordement entre cavités"
+    MP-Jonction@synthese                                           [60 60 60]
+    -                                                              [75 75 75]  "Non classé"
+endlookup
+
+
+layout l_fiabilite
+    copy drawingconfig
+    copy langue-fr
+
+    doc-title "Réseau du Clot d'Aspres"
+    doc-author "Benoît Urruty"
+    map-comment "<it>Fiabilité estimée des données topographiques<ss>"
+
+    cs EPSG:2154
+    base-scale 1 300
+    scale 1 1200
+    scale-bar 100 m
+
+    # le cœur du dispositif : la couleur de remplissage suit la map
+    # d'appartenance, et la légende des classes est discrète et non dégradée
+    color map-fg map
+    color-legend discrete
+
+    # « transparency off » fait saturer pdfTeX : le laisser sur on
+    transparency on
+    opacity 75
+
+    # le modèle de surface est lourd et concurrence les couleurs ;
+    # remettre « surface bottom » si le contexte topographique est voulu
+    surface off
+
+    # squelette masqué, comme dans le layout de la synthèse : l'afficher sur
+    # les 6 000 visées du réseau sature la mémoire de pdfTeX
+    symbol-hide line survey
+    # masquer textes et squelette : sans cela le PDF est six fois plus lourd
+    # et pdfTeX sature. La figure porte sur les classes, pas sur le détail.
+    symbol-hide group text
+    symbol-hide group cave-centerline
+
+    legend on
+    legend-width 25 cm
+    legend-columns 3
+    map-header 0 -7 nw
+
+    statistics explo-length off
+    statistics topo-length on
+    statistics copyright all
+
+    grid bottom
+    grid-size 100 100 100 m
+    grid-coords border
+
+    layers on
+
+    code tex-map
+        \edef\temp{\the\cavename}
+        \edef\nostring{}
+        \ifx\temp\nostring
+            \cavename={Clot d'Aspres}
+        \fi
+        \newtoks\club \club={}
+    endcode
+endlayout
+
+
+select MF-fiabilite
+
+###############################################################################
+#  Trois sorties. Garder celle qui convient, commenter les autres.
+#
+#  Le PDF embarque la légende des classes mais c'est le plus lourd : colorer
+#  chaque scrap individuellement multiplie les tracés, et pdfTeX peut saturer
+#  ("TeX capacity exceeded, main memory size"). Si cela arrive, deux voies :
+#  augmenter main_memory dans le texmf.cnf de l'installation Therion, ou
+#  passer par le XHTML ci-dessous.
+#
+#  Le SVG est le plus souple pour l'article — vectoriel, repris dans Inkscape —
+#  mais il ne contient PAS la légende des classes.
+#  Le XHTML contient le dessin ET la légende, et ne passe pas par TeX.
+###############################################################################
+
+export map -proj plan -layout l_fiabilite -o Outputs/Figure4-fiabilite.pdf
+# export map -proj plan -layout l_fiabilite -fmt svg   -o Outputs/Figure4-fiabilite.svg
+# export map -proj plan -layout l_fiabilite -fmt xhtml -o Outputs/Figure4-fiabilite.xhtml

@@ -300,9 +300,6 @@ layout my_layout-coupe
 endlayout  
 
 
-
-
-
 # 3-EXPORTS
 
 export map -fmt xvi -layout xviexport -o Data/Synthese-map.xvi
@@ -318,13 +315,12 @@ select MP-Clot-Aspres@synthese
 export map -o Outputs/Synthese-plan.pdf -layout my_layout
  
 export model  -o Outputs/Synthese.lox
-#export model  -o Outputs/Synthese.dxf
 export continuation-list -o Outputs/questions.html
 export cave-list -location on -o Outputs/Synthese.html  
 
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/Synthese -layout my_layout
-export model  -fmt esri -o Outputs/Synthese
+export model -fmt esri -o Outputs/Synthese
 
 
 # Export des fichiers kml
